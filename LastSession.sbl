@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_LastSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Path>C:\Users\7imeo\AppData\Roaming\SpaceEngineers\Saves\76561198048566000\Never Surrender 2020-04-04 23-41-05\Mission01</Path>
+  <Path>C:\Users\7imeo\AppData\Roaming\SpaceEngineers\Saves\76561198048566000\Never Surrender (10x Mode)</Path>
   <IsContentWorlds>false</IsContentWorlds>
   <IsOnline>false</IsOnline>
   <IsLobby>false</IsLobby>
-  <GameName>Never Surrender</GameName>
+  <GameName>Never Surrender (10x Mode)</GameName>
   <ServerPort>0</ServerPort>
 </MyObjectBuilder_LastSession>
