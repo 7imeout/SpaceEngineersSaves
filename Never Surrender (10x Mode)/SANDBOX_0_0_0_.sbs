@@ -10,7 +10,7 @@
       <MyObjectBuilder_GlobalEventBase>
         <SubtypeName>SpawnCargoShip</SubtypeName>
         <Enabled>true</Enabled>
-        <ActivationTimeMs>2208993</ActivationTimeMs>
+        <ActivationTimeMs>1348897</ActivationTimeMs>
       </MyObjectBuilder_GlobalEventBase>
     </Events>
   </SectorEvents>
@@ -1806,7 +1806,7 @@
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>2.99656677</CurrentStoredPower>
+          <CurrentStoredPower>2.9915216</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -1908,7 +1908,7 @@
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>2.99656558</CurrentStoredPower>
+          <CurrentStoredPower>2.99152</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -5327,12 +5327,12 @@
           <BoneOffset x="119" y="122" z="137" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-3" y="-8" z="4" />
-          <BoneOffset x="120" y="123" z="135" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="-2" y="-8" z="3" />
           <BoneOffset x="121" y="123" z="134" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-3" y="-8" z="4" />
+          <BoneOffset x="120" y="123" z="135" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-3" y="-8" z="3" />
@@ -7278,21 +7278,6 @@
                   </SavedModules>
                 </Sector>
                 <Sector>
-                  <SectorId>562953292087358</SectorId>
-                  <SavedModules>
-                    <Module>
-                      <ModuleId Type="MyObjectBuilder_ProceduralEnvironmentModuleDefinition" Subtype="Static" />
-                      <Builder xsi:type="MyObjectBuilder_StaticEnvironmentModule">
-                        <DisabledItems>
-                          <int>18</int>
-                        </DisabledItems>
-                        <Boxes />
-                        <MinScanned>15</MinScanned>
-                      </Builder>
-                    </Module>
-                  </SavedModules>
-                </Sector>
-                <Sector>
                   <SectorId>562953359196220</SectorId>
                   <SavedModules>
                     <Module>
@@ -7303,7 +7288,7 @@
                           <int>0</int>
                         </DisabledItems>
                         <Boxes />
-                        <MinScanned>0</MinScanned>
+                        <MinScanned>15</MinScanned>
                       </Builder>
                     </Module>
                   </SavedModules>
@@ -7353,6 +7338,21 @@
                         </DisabledItems>
                         <Boxes />
                         <MinScanned>0</MinScanned>
+                      </Builder>
+                    </Module>
+                  </SavedModules>
+                </Sector>
+                <Sector>
+                  <SectorId>562953308864560</SectorId>
+                  <SavedModules>
+                    <Module>
+                      <ModuleId Type="MyObjectBuilder_ProceduralEnvironmentModuleDefinition" Subtype="Static" />
+                      <Builder xsi:type="MyObjectBuilder_StaticEnvironmentModule">
+                        <DisabledItems>
+                          <int>4</int>
+                        </DisabledItems>
+                        <Boxes />
+                        <MinScanned>15</MinScanned>
                       </Builder>
                     </Module>
                   </SavedModules>
@@ -7425,13 +7425,13 @@
                   </SavedModules>
                 </Sector>
                 <Sector>
-                  <SectorId>562953308864560</SectorId>
+                  <SectorId>562953292087358</SectorId>
                   <SavedModules>
                     <Module>
                       <ModuleId Type="MyObjectBuilder_ProceduralEnvironmentModuleDefinition" Subtype="Static" />
                       <Builder xsi:type="MyObjectBuilder_StaticEnvironmentModule">
                         <DisabledItems>
-                          <int>4</int>
+                          <int>18</int>
                         </DisabledItems>
                         <Boxes />
                         <MinScanned>15</MinScanned>
@@ -7565,7 +7565,7 @@
           </ComponentData>
         </Components>
       </ComponentContainer>
-      <ContentChanged>true</ContentChanged>
+      <ContentChanged>false</ContentChanged>
       <StorageName>EarthLike-956015194d100084</StorageName>
       <Radius>50042</Radius>
       <HasAtmosphere>true</HasAtmosphere>
@@ -7883,14 +7883,14 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>140068762801971105</Name>
       <PositionAndOrientation>
-        <Position x="-102847.9237049021" y="45283.060191123324" z="80137.487537527268" />
-        <Forward x="0.0101694632" y="0.0739236" z="0.9972117" />
-        <Up x="0.6976692" y="-0.7149488" z="0.04588461" />
+        <Position x="-102847.92476691157" y="45283.0600963577" z="80137.487880683926" />
+        <Forward x="0.009768805" y="0.07417145" z="0.997197747" />
+        <Up x="0.697494864" y="-0.715088964" z="0.0463553928" />
         <Orientation>
-          <X>0.925811648</X>
-          <Y>0.37613675</Y>
-          <Z>-0.01863618</Z>
-          <W>0.03235222</W>
+          <X>0.9258523</X>
+          <Y>0.376027077</Y>
+          <Z>-0.0184933841</Z>
+          <W>0.0325448327</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -8814,14 +8814,14 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>113545516210595640</Name>
       <PositionAndOrientation>
-        <Position x="-102682.50329474585" y="47227.1419782327" z="87840.356434011643" />
-        <Forward x="-0.172850937" y="-0.397897571" z="0.900999248" />
-        <Up x="-0.923205" y="0.38423574" z="-0.00742554665" />
+        <Position x="-102682.50338019282" y="47227.1411510452" z="87840.354335762051" />
+        <Forward x="-0.172850415" y="-0.397880644" z="0.9010067" />
+        <Up x="-0.9232077" y="0.384229124" z="-0.00743564963" />
         <Orientation>
-          <X>-0.5416461</X>
-          <Y>0.8106289</Y>
-          <Z>0.120422594</Z>
-          <W>0.18707934</W>
+          <X>-0.541651</X>
+          <Y>0.810627937</Y>
+          <Z>0.120414428</Z>
+          <W>0.187074512</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -8850,88 +8850,88 @@
           <AttachedEntityId>614349426058547004</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>-0.54164803</X>
-              <Y>0.8106226</Y>
-              <Z>0.120475829</Z>
-              <W>0.1870669</W>
+              <X>-0.5416461</X>
+              <Y>0.8106289</Y>
+              <Z>0.1204226</Z>
+              <W>0.18707934</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>-412.062</X>
-              <Y>-495.765717</Y>
-              <Z>-363.7777</Z>
+              <X>-412.06192</X>
+              <Y>-495.764954</Y>
+              <Z>-363.7828</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>-0.54164803</X>
-              <Y>0.8106226</Y>
-              <Z>0.120475829</Z>
-              <W>0.1870669</W>
+              <X>-0.5416461</X>
+              <Y>0.8106289</Y>
+              <Z>0.1204226</Z>
+              <W>0.18707934</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>-0.00113751437</X>
-            <Y>-1.773541</Y>
-            <Z>2.474689</Z>
+            <X>-0.0007906112</X>
+            <Y>-1.77371144</Y>
+            <Z>2.47653437</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>102.003418</X>
-              <Y>16.5390625</Y>
-              <Z>146.004883</Z>
+              <X>102.003662</X>
+              <Y>16.54004</Y>
+              <Z>146</Z>
             </Position>
             <Orientation>
-              <PackedValue>3601806261701359701</PackedValue>
+              <PackedValue>3602087732383103061</PackedValue>
             </Orientation>
             <Matrix>
-              <M11>-0.343004972</M11>
-              <M12>-0.832765</M12>
-              <M13>-0.433648</M13>
+              <M11>-0.342975557</M11>
+              <M12>-0.8327584</M12>
+              <M13>-0.433779776</M13>
               <M14>0</M14>
-              <M21>-0.9228922</M21>
-              <M22>0.38451454</M22>
-              <M23>-0.00722026825</M23>
+              <M21>-0.922898769</M21>
+              <M22>0.384543955</M22>
+              <M23>-0.007451415</M23>
               <M24>0</M24>
-              <M31>0.172679067</M31>
-              <M32>0.397850037</M32>
+              <M31>0.172943056</M31>
+              <M32>0.3978833</M32>
               <M33>-0.900425434</M33>
               <M34>0</M34>
-              <M41>102.003418</M41>
-              <M42>16.5390625</M42>
-              <M43>146.004883</M43>
+              <M41>102.003662</M41>
+              <M42>16.54004</M42>
+              <M43>146</M43>
               <M44>1</M44>
               <Up>
-                <X>-0.9228922</X>
-                <Y>0.38451454</Y>
-                <Z>-0.00722026825</Z>
+                <X>-0.922898769</X>
+                <Y>0.384543955</Y>
+                <Z>-0.007451415</Z>
               </Up>
               <Down>
-                <X>0.9228922</X>
-                <Y>-0.38451454</Y>
-                <Z>0.00722026825</Z>
+                <X>0.922898769</X>
+                <Y>-0.384543955</Y>
+                <Z>0.007451415</Z>
               </Down>
               <Right>
-                <X>-0.343004972</X>
-                <Y>-0.832765</Y>
-                <Z>-0.433648</Z>
+                <X>-0.342975557</X>
+                <Y>-0.8327584</Y>
+                <Z>-0.433779776</Z>
               </Right>
               <Left>
-                <X>0.343004972</X>
-                <Y>0.832765</Y>
-                <Z>0.433648</Z>
+                <X>0.342975557</X>
+                <Y>0.8327584</Y>
+                <Z>0.433779776</Z>
               </Left>
               <Forward>
-                <X>-0.172679067</X>
-                <Y>-0.397850037</Y>
+                <X>-0.172943056</X>
+                <Y>-0.3978833</Y>
                 <Z>0.900425434</Z>
               </Forward>
               <Backward>
-                <X>0.172679067</X>
-                <Y>0.397850037</Y>
+                <X>0.172943056</X>
+                <Y>0.3978833</Y>
                 <Z>-0.900425434</Z>
               </Backward>
               <Translation>
-                <X>102.003418</X>
-                <Y>16.5390625</Y>
-                <Z>146.004883</Z>
+                <X>102.003662</X>
+                <Y>16.54004</Y>
+                <Z>146</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -9841,88 +9841,88 @@
           <AttachedEntityId>614349426058547004</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>-0.54164803</X>
-              <Y>0.8106226</Y>
-              <Z>0.120475829</Z>
-              <W>0.1870669</W>
+              <X>-0.5416461</X>
+              <Y>0.8106289</Y>
+              <Z>0.1204226</Z>
+              <W>0.18707934</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>-412.062</X>
-              <Y>-495.765717</Y>
-              <Z>-363.7777</Z>
+              <X>-412.06192</X>
+              <Y>-495.764954</Y>
+              <Z>-363.7828</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>-0.54164803</X>
-              <Y>0.8106226</Y>
-              <Z>0.120475829</Z>
-              <W>0.1870669</W>
+              <X>-0.5416461</X>
+              <Y>0.8106289</Y>
+              <Z>0.1204226</Z>
+              <W>0.18707934</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>-0.97533536</X>
-            <Y>-1.77344322</Y>
-            <Z>1.49782777</Z>
+            <X>-0.974949956</X>
+            <Y>-1.773726</Y>
+            <Z>1.49963486</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>102.168945</X>
-              <Y>16.9619141</Y>
-              <Z>147.307617</Z>
+              <X>102.169189</X>
+              <Y>16.96289</Y>
+              <Z>147.302734</Z>
             </Position>
             <Orientation>
-              <PackedValue>3601806261701359701</PackedValue>
+              <PackedValue>3602087732383103061</PackedValue>
             </Orientation>
             <Matrix>
-              <M11>-0.343004972</M11>
-              <M12>-0.832765</M12>
-              <M13>-0.433648</M13>
+              <M11>-0.342975557</M11>
+              <M12>-0.8327584</M12>
+              <M13>-0.433779776</M13>
               <M14>0</M14>
-              <M21>-0.9228922</M21>
-              <M22>0.38451454</M22>
-              <M23>-0.00722026825</M23>
+              <M21>-0.922898769</M21>
+              <M22>0.384543955</M22>
+              <M23>-0.007451415</M23>
               <M24>0</M24>
-              <M31>0.172679067</M31>
-              <M32>0.397850037</M32>
+              <M31>0.172943056</M31>
+              <M32>0.3978833</M32>
               <M33>-0.900425434</M33>
               <M34>0</M34>
-              <M41>102.168945</M41>
-              <M42>16.9619141</M42>
-              <M43>147.307617</M43>
+              <M41>102.169189</M41>
+              <M42>16.96289</M42>
+              <M43>147.302734</M43>
               <M44>1</M44>
               <Up>
-                <X>-0.9228922</X>
-                <Y>0.38451454</Y>
-                <Z>-0.00722026825</Z>
+                <X>-0.922898769</X>
+                <Y>0.384543955</Y>
+                <Z>-0.007451415</Z>
               </Up>
               <Down>
-                <X>0.9228922</X>
-                <Y>-0.38451454</Y>
-                <Z>0.00722026825</Z>
+                <X>0.922898769</X>
+                <Y>-0.384543955</Y>
+                <Z>0.007451415</Z>
               </Down>
               <Right>
-                <X>-0.343004972</X>
-                <Y>-0.832765</Y>
-                <Z>-0.433648</Z>
+                <X>-0.342975557</X>
+                <Y>-0.8327584</Y>
+                <Z>-0.433779776</Z>
               </Right>
               <Left>
-                <X>0.343004972</X>
-                <Y>0.832765</Y>
-                <Z>0.433648</Z>
+                <X>0.342975557</X>
+                <Y>0.8327584</Y>
+                <Z>0.433779776</Z>
               </Left>
               <Forward>
-                <X>-0.172679067</X>
-                <Y>-0.397850037</Y>
+                <X>-0.172943056</X>
+                <Y>-0.3978833</Y>
                 <Z>0.900425434</Z>
               </Forward>
               <Backward>
-                <X>0.172679067</X>
-                <Y>0.397850037</Y>
+                <X>0.172943056</X>
+                <Y>0.3978833</Y>
                 <Z>-0.900425434</Z>
               </Backward>
               <Translation>
-                <X>102.168945</X>
-                <Y>16.9619141</Y>
-                <Z>147.307617</Z>
+                <X>102.169189</X>
+                <Y>16.96289</Y>
+                <Z>147.302734</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -10781,88 +10781,88 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <AttachedEntityId>614349426058547004</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>-0.54164803</X>
-              <Y>0.8106226</Y>
-              <Z>0.120475829</Z>
-              <W>0.1870669</W>
+              <X>-0.5416461</X>
+              <Y>0.8106289</Y>
+              <Z>0.1204226</Z>
+              <W>0.18707934</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>-412.062</X>
-              <Y>-495.765717</Y>
-              <Z>-363.7777</Z>
+              <X>-412.06192</X>
+              <Y>-495.764954</Y>
+              <Z>-363.7828</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>-0.54164803</X>
-              <Y>0.8106226</Y>
-              <Z>0.120475829</Z>
-              <W>0.1870669</W>
+              <X>-0.5416461</X>
+              <Y>0.8106289</Y>
+              <Z>0.1204226</Z>
+              <W>0.18707934</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>0.00162645674</X>
-            <Y>-1.77346575</Y>
-            <Z>0.523447752</Z>
+            <X>0.00205023563</X>
+            <Y>-1.77383518</Y>
+            <Z>0.5252934</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>101.665283</X>
-              <Y>15.7602539</Y>
-              <Z>147.761719</Z>
+              <X>101.665527</X>
+              <Y>15.76123</Y>
+              <Z>147.756836</Z>
             </Position>
             <Orientation>
-              <PackedValue>3601806261701359701</PackedValue>
+              <PackedValue>3602087732383103061</PackedValue>
             </Orientation>
             <Matrix>
-              <M11>-0.343004972</M11>
-              <M12>-0.832765</M12>
-              <M13>-0.433648</M13>
+              <M11>-0.342975557</M11>
+              <M12>-0.8327584</M12>
+              <M13>-0.433779776</M13>
               <M14>0</M14>
-              <M21>-0.9228922</M21>
-              <M22>0.38451454</M22>
-              <M23>-0.00722026825</M23>
+              <M21>-0.922898769</M21>
+              <M22>0.384543955</M22>
+              <M23>-0.007451415</M23>
               <M24>0</M24>
-              <M31>0.172679067</M31>
-              <M32>0.397850037</M32>
+              <M31>0.172943056</M31>
+              <M32>0.3978833</M32>
               <M33>-0.900425434</M33>
               <M34>0</M34>
-              <M41>101.665283</M41>
-              <M42>15.7602539</M42>
-              <M43>147.761719</M43>
+              <M41>101.665527</M41>
+              <M42>15.76123</M42>
+              <M43>147.756836</M43>
               <M44>1</M44>
               <Up>
-                <X>-0.9228922</X>
-                <Y>0.38451454</Y>
-                <Z>-0.00722026825</Z>
+                <X>-0.922898769</X>
+                <Y>0.384543955</Y>
+                <Z>-0.007451415</Z>
               </Up>
               <Down>
-                <X>0.9228922</X>
-                <Y>-0.38451454</Y>
-                <Z>0.00722026825</Z>
+                <X>0.922898769</X>
+                <Y>-0.384543955</Y>
+                <Z>0.007451415</Z>
               </Down>
               <Right>
-                <X>-0.343004972</X>
-                <Y>-0.832765</Y>
-                <Z>-0.433648</Z>
+                <X>-0.342975557</X>
+                <Y>-0.8327584</Y>
+                <Z>-0.433779776</Z>
               </Right>
               <Left>
-                <X>0.343004972</X>
-                <Y>0.832765</Y>
-                <Z>0.433648</Z>
+                <X>0.342975557</X>
+                <Y>0.8327584</Y>
+                <Z>0.433779776</Z>
               </Left>
               <Forward>
-                <X>-0.172679067</X>
-                <Y>-0.397850037</Y>
+                <X>-0.172943056</X>
+                <Y>-0.3978833</Y>
                 <Z>0.900425434</Z>
               </Forward>
               <Backward>
-                <X>0.172679067</X>
-                <Y>0.397850037</Y>
+                <X>0.172943056</X>
+                <Y>0.3978833</Y>
                 <Z>-0.900425434</Z>
               </Backward>
               <Translation>
-                <X>101.665283</X>
-                <Y>15.7602539</Y>
-                <Z>147.761719</Z>
+                <X>101.665527</X>
+                <Y>15.76123</Y>
+                <Z>147.756836</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -10892,88 +10892,88 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <AttachedEntityId>614349426058547004</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>-0.54164803</X>
-              <Y>0.8106226</Y>
-              <Z>0.120475829</Z>
-              <W>0.1870669</W>
+              <X>-0.5416461</X>
+              <Y>0.8106289</Y>
+              <Z>0.1204226</Z>
+              <W>0.18707934</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>-412.062</X>
-              <Y>-495.765717</Y>
-              <Z>-363.7777</Z>
+              <X>-412.06192</X>
+              <Y>-495.764954</Y>
+              <Z>-363.7828</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>-0.54164803</X>
-              <Y>0.8106226</Y>
-              <Z>0.120475829</Z>
-              <W>0.1870669</W>
+              <X>-0.5416461</X>
+              <Y>0.8106289</Y>
+              <Z>0.1204226</Z>
+              <W>0.18707934</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>0.975824356</X>
-            <Y>-1.77356362</Y>
-            <Z>1.50030911</Z>
+            <X>0.9762096</X>
+            <Y>-1.77382076</Y>
+            <Z>1.50219309</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>101.499756</X>
-              <Y>15.3374023</Y>
-              <Z>146.458984</Z>
+              <X>101.5</X>
+              <Y>15.3383789</Y>
+              <Z>146.4541</Z>
             </Position>
             <Orientation>
-              <PackedValue>3601806261701359701</PackedValue>
+              <PackedValue>3602087732383103061</PackedValue>
             </Orientation>
             <Matrix>
-              <M11>-0.343004972</M11>
-              <M12>-0.832765</M12>
-              <M13>-0.433648</M13>
+              <M11>-0.342975557</M11>
+              <M12>-0.8327584</M12>
+              <M13>-0.433779776</M13>
               <M14>0</M14>
-              <M21>-0.9228922</M21>
-              <M22>0.38451454</M22>
-              <M23>-0.00722026825</M23>
+              <M21>-0.922898769</M21>
+              <M22>0.384543955</M22>
+              <M23>-0.007451415</M23>
               <M24>0</M24>
-              <M31>0.172679067</M31>
-              <M32>0.397850037</M32>
+              <M31>0.172943056</M31>
+              <M32>0.3978833</M32>
               <M33>-0.900425434</M33>
               <M34>0</M34>
-              <M41>101.499756</M41>
-              <M42>15.3374023</M42>
-              <M43>146.458984</M43>
+              <M41>101.5</M41>
+              <M42>15.3383789</M42>
+              <M43>146.4541</M43>
               <M44>1</M44>
               <Up>
-                <X>-0.9228922</X>
-                <Y>0.38451454</Y>
-                <Z>-0.00722026825</Z>
+                <X>-0.922898769</X>
+                <Y>0.384543955</Y>
+                <Z>-0.007451415</Z>
               </Up>
               <Down>
-                <X>0.9228922</X>
-                <Y>-0.38451454</Y>
-                <Z>0.00722026825</Z>
+                <X>0.922898769</X>
+                <Y>-0.384543955</Y>
+                <Z>0.007451415</Z>
               </Down>
               <Right>
-                <X>-0.343004972</X>
-                <Y>-0.832765</Y>
-                <Z>-0.433648</Z>
+                <X>-0.342975557</X>
+                <Y>-0.8327584</Y>
+                <Z>-0.433779776</Z>
               </Right>
               <Left>
-                <X>0.343004972</X>
-                <Y>0.832765</Y>
-                <Z>0.433648</Z>
+                <X>0.342975557</X>
+                <Y>0.8327584</Y>
+                <Z>0.433779776</Z>
               </Left>
               <Forward>
-                <X>-0.172679067</X>
-                <Y>-0.397850037</Y>
+                <X>-0.172943056</X>
+                <Y>-0.3978833</Y>
                 <Z>0.900425434</Z>
               </Forward>
               <Backward>
-                <X>0.172679067</X>
-                <Y>0.397850037</Y>
+                <X>0.172943056</X>
+                <Y>0.3978833</Y>
                 <Z>-0.900425434</Z>
               </Backward>
               <Translation>
-                <X>101.499756</X>
-                <Y>15.3374023</Y>
-                <Z>146.458984</Z>
+                <X>101.5</X>
+                <Y>15.3383789</Y>
+                <Z>146.4541</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -11224,14 +11224,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>127029191050532033</Name>
       <PositionAndOrientation>
-        <Position x="-95658.328490058353" y="51793.235239951449" z="65608.227527761643" />
-        <Forward x="-0.585014164" y="-0.288343936" z="0.7580339" />
-        <Up x="-0.801829636" y="0.345964" z="-0.487214357" />
+        <Position x="-95658.329552067822" y="51793.232459638952" z="65608.231288887051" />
+        <Forward x="-0.584993958" y="-0.288350165" z="0.7580476" />
+        <Up x="-0.801846266" y="0.345942855" z="-0.4872023" />
         <Orientation>
-          <X>-0.5679575</X>
-          <Y>0.74595</Y>
-          <Z>-0.0666500553</Z>
-          <W>0.341380537</W>
+          <X>-0.567967534</X>
+          <Y>0.7459468</Y>
+          <Z>-0.06664421</Z>
+          <W>0.341371834</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -13001,33 +13001,33 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
           <AttachedEntityId>614349849874603836</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>-0.567956746</X>
-              <Y>0.7459498</Y>
-              <Z>-0.06665235</Z>
-              <W>0.341381729</W>
+              <X>-0.5679575</X>
+              <Y>0.74595</Y>
+              <Z>-0.06665006</Z>
+              <W>0.341380537</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>468.114</X>
-              <Y>-25.6700172</Y>
-              <Z>-67.914444</Z>
+              <X>468.112885</X>
+              <Y>-25.6716785</Y>
+              <Z>-67.911705</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>-0.567956746</X>
-              <Y>0.7459498</Y>
-              <Z>-0.06665235</Z>
-              <W>0.341381729</W>
+              <X>-0.5679575</X>
+              <Y>0.74595</Y>
+              <Z>-0.06665006</Z>
+              <W>0.341380537</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>0.00152084208</X>
-            <Y>-1.77362025</Y>
-            <Z>0.524609745</Z>
+            <X>0.0017439645</X>
+            <Y>-1.77295077</Y>
+            <Z>0.5250745</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>981.8428</X>
-              <Y>485.8662</Y>
-              <Z>444.550781</Z>
+              <X>981.8413</X>
+              <Y>485.864258</Y>
+              <Z>444.5537</Z>
             </Position>
             <Orientation>
               <PackedValue>3852455940292393099</PackedValue>
@@ -13045,9 +13045,9 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
               <M32>0.2881837</M32>
               <M33>-0.7582669</M33>
               <M34>0</M34>
-              <M41>981.8428</M41>
-              <M42>485.8662</M42>
-              <M43>444.550781</M43>
+              <M41>981.8413</M41>
+              <M42>485.864258</M42>
+              <M43>444.5537</M43>
               <M44>1</M44>
               <Up>
                 <X>-0.801873446</X>
@@ -13080,9 +13080,9 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
                 <Z>-0.7582669</Z>
               </Backward>
               <Translation>
-                <X>981.8428</X>
-                <Y>485.8662</Y>
-                <Z>444.550781</Z>
+                <X>981.8413</X>
+                <Y>485.864258</Y>
+                <Z>444.5537</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -13299,14 +13299,14 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>85790870745248930</Name>
       <PositionAndOrientation>
-        <Position x="-95633.7879627146" y="51759.551646201449" z="65540.498035574143" />
-        <Forward x="-0.340426147" y="-0.92787075" z="-0.152202487" />
-        <Up x="-0.814359665" y="0.3718688" z="-0.445568919" />
+        <Position x="-95633.790001286572" y="51759.549842451452" z="65540.499843574551" />
+        <Forward x="-0.340396583" y="-0.927877843" z="-0.152226418" />
+        <Up x="-0.814384" y="0.3718549" z="-0.445536315" />
         <Orientation>
-          <X>-0.486302018</X>
-          <Y>0.4329077</Y>
-          <Z>0.278524667</Z>
-          <W>0.7060632</W>
+          <X>-0.48629418</X>
+          <Y>0.432902724</Y>
+          <Z>0.278550744</Z>
+          <W>0.706061363</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -14494,7 +14494,7 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.08147887</CurrentStoredPower>
+          <CurrentStoredPower>0.0860242844</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -14547,7 +14547,7 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.08108827</CurrentStoredPower>
+          <CurrentStoredPower>0.0856336653</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -15259,33 +15259,33 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
           <AttachedEntityId>614349849874603836</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>-0.486309767</X>
-              <Y>0.432911724</Y>
-              <Z>0.278496146</Z>
-              <W>0.706066668</W>
+              <X>-0.486302018</X>
+              <Y>0.432907671</Y>
+              <Z>0.278524667</Z>
+              <W>0.7060632</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>492.656982</X>
-              <Y>-59.3526344</Y>
-              <Z>-135.646866</Z>
+              <X>492.6534</X>
+              <Y>-59.35527</Y>
+              <Z>-135.6412</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>-0.486309767</X>
-              <Y>0.432911724</Y>
-              <Z>0.278496146</Z>
-              <W>0.706066668</W>
+              <X>-0.486302018</X>
+              <Y>0.432907671</Y>
+              <Z>0.278524667</Z>
+              <W>0.7060632</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>4.00207472</X>
-            <Y>-1.27359486</Y>
-            <Z>1.02420378</Z>
+            <X>4.00177765</X>
+            <Y>-1.27320039</Y>
+            <Z>1.02507186</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>1007.92383</X>
-              <Y>453.0127</Y>
-              <Z>373.5459</Z>
+              <X>1007.91992</X>
+              <Y>453.010742</Y>
+              <Z>373.551758</Z>
             </Position>
             <Orientation>
               <PackedValue>4154065384333227976</PackedValue>
@@ -15303,9 +15303,9 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
               <M32>0.927908063</M32>
               <M33>0.152232051</M33>
               <M34>0</M34>
-              <M41>1007.92383</M41>
-              <M42>453.0127</M42>
-              <M43>373.5459</M43>
+              <M41>1007.91992</M41>
+              <M42>453.010742</M42>
+              <M43>373.551758</M43>
               <M44>1</M44>
               <Up>
                 <X>-0.814388752</X>
@@ -15338,9 +15338,9 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
                 <Z>0.152232051</Z>
               </Backward>
               <Translation>
-                <X>1007.92383</X>
-                <Y>453.0127</Y>
-                <Z>373.5459</Z>
+                <X>1007.91992</X>
+                <Y>453.010742</Y>
+                <Z>373.551758</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -15368,33 +15368,33 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
           <AttachedEntityId>614349849874603836</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>-0.486309767</X>
-              <Y>0.432911724</Y>
-              <Z>0.278496146</Z>
-              <W>0.706066668</W>
+              <X>-0.486302018</X>
+              <Y>0.432907671</Y>
+              <Z>0.278524667</Z>
+              <W>0.7060632</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>492.656982</X>
-              <Y>-59.3526344</Y>
-              <Z>-135.646866</Z>
+              <X>492.6534</X>
+              <Y>-59.35527</Y>
+              <Z>-135.6412</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>-0.486309767</X>
-              <Y>0.432911724</Y>
-              <Z>0.278496146</Z>
-              <W>0.706066668</W>
+              <X>-0.486302018</X>
+              <Y>0.432907671</Y>
+              <Z>0.278524667</Z>
+              <W>0.7060632</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>-0.997812867</X>
-            <Y>-1.27304268</Y>
-            <Z>-1.97587</Z>
+            <X>-0.9977283</X>
+            <Y>-1.27352393</Y>
+            <Z>-1.97540188</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>1004.55176</X>
-              <Y>450.368164</Y>
-              <Z>377.5</Z>
+              <X>1004.54883</X>
+              <Y>450.365234</Y>
+              <Z>377.505859</Z>
             </Position>
             <Orientation>
               <PackedValue>4154065384333227976</PackedValue>
@@ -15412,9 +15412,9 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
               <M32>0.927908063</M32>
               <M33>0.152232051</M33>
               <M34>0</M34>
-              <M41>1004.55176</M41>
-              <M42>450.368164</M42>
-              <M43>377.5</M43>
+              <M41>1004.54883</M41>
+              <M42>450.365234</M42>
+              <M43>377.505859</M43>
               <M44>1</M44>
               <Up>
                 <X>-0.814388752</X>
@@ -15447,9 +15447,9 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
                 <Z>0.152232051</Z>
               </Backward>
               <Translation>
-                <X>1004.55176</X>
-                <Y>450.368164</Y>
-                <Z>377.5</Z>
+                <X>1004.54883</X>
+                <Y>450.365234</Y>
+                <Z>377.505859</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -15458,40 +15458,52 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
       </CubeBlocks>
       <Skeleton>
         <BoneInfo>
-          <BonePosition x="-4" y="2" z="5" />
-          <BoneOffset x="121" y="126" z="118" />
+          <BonePosition x="-5" y="2" z="-9" />
+          <BoneOffset x="125" y="127" z="130" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="14" y="0" z="8" />
-          <BoneOffset x="131" y="143" z="150" />
+          <BonePosition x="-5" y="1" z="-6" />
+          <BoneOffset x="127" y="127" z="117" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-5" y="1" z="-7" />
+          <BoneOffset x="142" y="119" z="136" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-5" y="0" z="-5" />
+          <BoneOffset x="122" y="116" z="132" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-5" y="0" z="-7" />
+          <BoneOffset x="144" y="119" z="142" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-5" y="0" z="-8" />
+          <BoneOffset x="199" y="126" z="140" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-5" y="0" z="-4" />
+          <BoneOffset x="113" y="99" z="139" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-4" y="2" z="5" />
+          <BoneOffset x="121" y="126" z="118" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-4" y="0" z="8" />
           <BoneOffset x="128" y="140" z="121" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-6" y="0" z="-5" />
-          <BoneOffset x="121" y="113" z="133" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="-4" y="0" z="7" />
           <BoneOffset x="128" y="139" z="122" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-3" y="5" z="8" />
-          <BoneOffset x="127" y="127" z="125" />
+          <BonePosition x="17" y="1" z="5" />
+          <BoneOffset x="139" y="131" z="125" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-6" y="1" z="5" />
           <BoneOffset x="140" y="132" z="133" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-3" y="2" z="-8" />
-          <BoneOffset x="120" y="127" z="136" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="17" y="1" z="5" />
-          <BoneOffset x="139" y="131" z="125" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="17" y="1" z="6" />
@@ -15502,28 +15514,40 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
           <BoneOffset x="140" y="131" z="125" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-2" y="2" z="-10" />
-          <BoneOffset x="145" y="123" z="128" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-4" y="0" z="-3" />
-          <BoneOffset x="116" y="105" z="137" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="-1" y="0" z="-7" />
           <BoneOffset x="131" y="139" z="100" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-3" y="5" z="8" />
+          <BoneOffset x="127" y="127" z="125" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-4" y="18" z="-10" />
+          <BoneOffset x="113" y="126" z="141" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-4" y="17" z="-10" />
+          <BoneOffset x="114" y="127" z="139" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-3" y="2" z="-8" />
+          <BoneOffset x="120" y="127" z="136" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-6" y="0" z="-5" />
+          <BoneOffset x="121" y="113" z="133" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-2" y="2" z="-10" />
+          <BoneOffset x="145" y="123" z="128" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-2" y="2" z="-9" />
           <BoneOffset x="140" y="124" z="128" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-4" y="1" z="-8" />
-          <BoneOffset x="141" y="127" z="127" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-4" y="2" z="-9" />
-          <BoneOffset x="125" y="127" z="130" />
+          <BonePosition x="13" y="0" z="8" />
+          <BoneOffset x="129" y="134" z="137" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-2" y="3" z="-9" />
@@ -15534,44 +15558,16 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
           <BoneOffset x="146" y="123" z="128" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-3" y="1" z="8" />
-          <BoneOffset x="127" y="127" z="96" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-4" y="18" z="-10" />
-          <BoneOffset x="113" y="126" z="141" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-6" y="2" z="6" />
-          <BoneOffset x="124" y="126" z="122" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-5" y="0" z="-5" />
-          <BoneOffset x="122" y="116" z="132" />
+          <BonePosition x="-4" y="0" z="-3" />
+          <BoneOffset x="116" y="105" z="137" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="16" y="1" z="5" />
           <BoneOffset x="162" y="138" z="121" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-5" y="1" z="-6" />
-          <BoneOffset x="127" y="127" z="117" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-5" y="0" z="-7" />
-          <BoneOffset x="144" y="119" z="142" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-5" y="2" z="-9" />
-          <BoneOffset x="125" y="127" z="130" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="16" y="1" z="4" />
           <BoneOffset x="156" y="136" z="122" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="-5" y="0" z="-8" />
-          <BoneOffset x="199" y="126" z="140" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="16" y="1" z="7" />
@@ -15582,16 +15578,24 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
           <BoneOffset x="192" y="148" z="117" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-5" y="1" z="-7" />
-          <BoneOffset x="142" y="119" z="136" />
+          <BonePosition x="-4" y="1" z="-8" />
+          <BoneOffset x="141" y="127" z="127" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-4" y="17" z="-10" />
-          <BoneOffset x="114" y="127" z="139" />
+          <BonePosition x="-6" y="2" z="6" />
+          <BoneOffset x="124" y="126" z="122" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="-5" y="0" z="-4" />
-          <BoneOffset x="113" y="99" z="139" />
+          <BonePosition x="-4" y="2" z="-9" />
+          <BoneOffset x="125" y="127" z="130" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="-3" y="1" z="8" />
+          <BoneOffset x="127" y="127" z="96" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="14" y="0" z="8" />
+          <BoneOffset x="131" y="143" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-5" y="0" z="6" />
@@ -15600,10 +15604,6 @@ GPS:SAIN - Station:-130707.791292004:42034.585292507:47872.1408814285:
         <BoneInfo>
           <BonePosition x="-5" y="0" z="5" />
           <BoneOffset x="145" y="112" z="130" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="13" y="0" z="8" />
-          <BoneOffset x="129" y="134" z="137" />
         </BoneInfo>
       </Skeleton>
       <ConveyorLines>
@@ -16925,7 +16925,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>LargeTube</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>16</ItemId>
+                      <ItemId>15</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>1467.408484</Amount>
@@ -16933,14 +16933,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                         <SubtypeName>Ice</SubtypeName>
                         <MaterialNameString>Snow</MaterialNameString>
                       </PhysicalContent>
-                      <ItemId>17</ItemId>
+                      <ItemId>16</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>19</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>PowerCell</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>18</ItemId>
+                      <ItemId>17</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>1</Amount>
@@ -16948,31 +16948,31 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                         <SubtypeName>HydrogenBottle</SubtypeName>
                         <GasLevel>1</GasLevel>
                       </PhysicalContent>
-                      <ItemId>19</ItemId>
+                      <ItemId>18</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>239</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Computer</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>20</ItemId>
+                      <ItemId>19</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>113</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Display</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>21</ItemId>
+                      <ItemId>20</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>1</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>GravityGenerator</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>22</ItemId>
+                      <ItemId>21</ItemId>
                     </MyObjectBuilder_InventoryItem>
                   </Items>
-                  <nextItemId>23</nextItemId>
+                  <nextItemId>22</nextItemId>
                   <Volume>15.625</Volume>
                   <Mass>9223372036854.775807</Mass>
                   <MaxItemCount>2147483647</MaxItemCount>
@@ -17033,15 +17033,15 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.843518138</float>
+            <float>0.843516</float>
             <float>0</float>
-            <float>0.1744791</float>
+            <float>0.174500048</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
-            <float>0.174449265</float>
+            <float>0.17451483</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -17115,7 +17115,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.841664</float>
+            <float>0.8416457</float>
             <float>0</float>
             <float>1</float>
             <float>0</float>
@@ -17263,13 +17263,13 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.839745</float>
+            <float>0.839726269</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
-            <float>0.174495533</float>
+            <float>0.1744829</float>
             <float>0</float>
-            <float>0.174532071</float>
+            <float>0.174514189</float>
             <float>1</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -17360,11 +17360,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.8225288</float>
+            <float>0.8224989</float>
             <float>1</float>
-            <float>0.174477056</float>
+            <float>0.174495235</float>
             <float>0</float>
-            <float>0.174494684</float>
+            <float>0.17446126</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
@@ -17482,9 +17482,9 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>1</float>
-            <float>0.174527809</float>
+            <float>0.174510017</float>
             <float>0</float>
-            <float>0.1744448</float>
+            <float>0.17445752</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -18113,7 +18113,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.41520077</float>
+            <float>0.4151903</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
@@ -18769,7 +18769,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.40165928</float>
+            <float>0.4016431</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
@@ -19088,14 +19088,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>122076990795588967</Name>
       <PositionAndOrientation>
-        <Position x="-95668.013060370853" y="51789.759654013949" z="65620.840809011643" />
-        <Forward x="0.6210537" y="0.686733961" z="-0.377741337" />
-        <Up x="-0.7749691" y="0.466042876" z="-0.426880151" />
+        <Position x="-95668.013145817822" y="51789.758826826452" z="65620.840663887051" />
+        <Forward x="0.620499134" y="0.6869868" z="-0.378192723" />
+        <Up x="-0.775432" y="0.46555" z="-0.4265773" />
         <Orientation>
-          <X>0.09887673</X>
-          <Y>-0.548956037</Y>
-          <Z>0.5071509</Z>
-          <W>0.657014966</W>
+          <X>0.09908579</X>
+          <Y>-0.5487127</Y>
+          <Z>0.507353</Z>
+          <W>0.6570307</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -19146,14 +19146,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>116863213251249547</Name>
       <PositionAndOrientation>
-        <Position x="-95578.3739002146" y="51807.473521201449" z="65520.710926199143" />
-        <Forward x="0.612669051" y="-0.719592333" z="0.3268377" />
-        <Up x="-0.7850975" y="-0.6016756" z="0.146994919" />
+        <Position x="-95578.372032536572" y="51807.475623701452" z="65520.712734199551" />
+        <Forward x="0.6148803" y="-0.7201265" z="0.32146427" />
+        <Up x="-0.783938766" y="-0.6024926" z="0.149806231" />
         <Orientation>
-          <X>0.7105258</X>
-          <Y>-0.3982109</Y>
-          <Z>-0.544050634</Z>
-          <W>-0.201469615</W>
+          <X>0.708829641</X>
+          <Y>-0.3978602</Y>
+          <Z>-0.546632469</Z>
+          <W>-0.201148614</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -19170,14 +19170,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>72354478965074468</Name>
       <PositionAndOrientation>
-        <Position x="-102871.13342169898" y="45274.542612998324" z="80130.931141042893" />
-        <Forward x="0.9101693" y="-0.327392876" z="0.2537831" />
-        <Up x="0.1542003" y="0.836403251" z="0.5259771" />
+        <Position x="-102871.13326300532" y="45274.543006513952" z="80130.9300193558" />
+        <Forward x="0.9057684" y="-0.341241062" z="0.251272559" />
+        <Up x="0.1666499" y="0.831994057" z="0.529163241" />
         <Orientation>
-          <X>0.09071067</X>
-          <Y>-0.7865514</Y>
-          <Z>-0.2712378</Z>
-          <W>0.5473011</W>
+          <X>0.08609449</X>
+          <Y>-0.7862722</Y>
+          <Z>-0.276750326</Z>
+          <W>0.545685768</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -19195,14 +19195,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>105909690853468519</Name>
       <PositionAndOrientation>
-        <Position x="-102875.09313849585" y="45275.698374717074" z="80143.293445730393" />
-        <Forward x="0.0431458876" y="0.491946459" z="0.8695552" />
-        <Up x="0.374530077" y="0.798929155" z="-0.470573425" />
+        <Position x="-102875.09371222407" y="45275.697547529577" z="80143.294033027676" />
+        <Forward x="0.04272579" y="0.4921545" z="0.8694582" />
+        <Up x="0.367219" y="0.8016014" z="-0.4717895" />
         <Orientation>
-          <X>0.190010622</X>
-          <Y>0.94798404</Y>
-          <Z>-0.2538335</Z>
-          <W>0.0281208344</W>
+          <X>0.186215311</X>
+          <Y>0.948711336</Y>
+          <Z>-0.254014164</Z>
+          <W>0.0273406915</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -19224,14 +19224,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>102287920792390449</Name>
       <PositionAndOrientation>
-        <Position x="-102613.22961310523" y="45918.174448935824" z="79632.935535574143" />
-        <Forward x="0.200913787" y="0.874933839" z="0.440595031" />
-        <Up x="-0.9765643" y="0.21432" z="0.0197222233" />
+        <Position x="-102613.2287219897" y="45918.173865888952" z="79632.9358787308" />
+        <Forward x="0.206940949" y="0.8735144" z="0.440621316" />
+        <Up x="-0.975277662" y="0.21986711" z="0.0221688747" />
         <Orientation>
-          <X>-0.535981</X>
-          <Y>0.65804404</Y>
-          <Z>-0.324906766</Z>
-          <W>-0.417298466</W>
+          <X>-0.5346123</X>
+          <Y>0.659166455</Y>
+          <Z>-0.322887331</Z>
+          <W>-0.418847233</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -19277,14 +19277,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>79746048587006410</Name>
       <PositionAndOrientation>
-        <Position x="-99274.975340644291" y="51462.677622763949" z="75454.223743581955" />
-        <Forward x="-0.5099474" y="-0.6408618" z="0.5738027" />
-        <Up x="-0.8528664" y="0.46362412" z="-0.240148842" />
+        <Position x="-99274.97542609126" y="51462.677772138952" z="75454.224452949551" />
+        <Forward x="-0.509052753" y="-0.641346753" z="0.5740548" />
+        <Up x="-0.8532371" y="0.463838279" z="-0.238412082" />
         <Orientation>
-          <X>-0.4995128</X>
-          <Y>0.733067751</Y>
-          <Z>0.13665621</Z>
-          <W>0.440935045</W>
+          <X>-0.499212623</X>
+          <Y>0.7333582</Y>
+          <Z>0.13735953</Z>
+          <W>0.440573335</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -19301,14 +19301,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>81398961256429650</Name>
       <PositionAndOrientation>
-        <Position x="-95620.7967517771" y="51903.546763388949" z="65643.872059011643" />
-        <Forward x="0.208206937" y="-0.455563217" z="-0.86551255" />
-        <Up x="-0.800771952" y="0.428717524" z="-0.4182888" />
+        <Position x="-95621.426231755322" y="51902.974647138952" z="65643.875820137051" />
+        <Forward x="0.221163884" y="-0.4438233" z="-0.86839354" />
+        <Up x="-0.774360955" y="0.4613706" z="-0.433015257" />
         <Orientation>
-          <X>-0.2585475</X>
-          <Y>0.01992199</Y>
-          <Z>0.4677546</Z>
-          <W>0.844962656</W>
+          <X>-0.256451458</X>
+          <Y>0.005988982</Y>
+          <Z>0.451162249</Z>
+          <W>0.8547803</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -19800,88 +19800,88 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <AttachedEntityId>107296695071499865</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>0.0242447034</X>
-              <Y>0.999699235</Y>
-              <Z>0.00185758644</Z>
-              <W>-0.003180088</W>
+              <X>0.00209616451</X>
+              <Y>0.9999759</Y>
+              <Z>0.00360528729</Z>
+              <W>0.00555007532</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>39.2540436</X>
-              <Y>0.477914542</Y>
-              <Z>-20.0252876</Z>
+              <X>40.06731</X>
+              <Y>0.6963124</Y>
+              <Z>-19.9024811</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>0.0242447034</X>
-              <Y>0.999699235</Y>
-              <Z>0.00185758644</Z>
-              <W>-0.003180088</W>
+              <X>0.00209616451</X>
+              <Y>0.9999759</Y>
+              <Z>0.00360528729</Z>
+              <W>0.00555007532</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>2.36483979</X>
-            <Y>1.271262</Y>
-            <Z>0.0005263429</Z>
+            <X>2.36488581</X>
+            <Y>1.27077973</Y>
+            <Z>3.88606859E-05</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>36.9531441</X>
-              <Y>1.86223948</Y>
-              <Z>-20.0065784</Z>
+              <X>37.7071152</X>
+              <Y>1.977127</Y>
+              <Z>-19.92023</Z>
             </Position>
             <Orientation>
-              <PackedValue>11133768663578912309</PackedValue>
+              <PackedValue>2138958456751659083</PackedValue>
             </Orientation>
             <Matrix>
-              <M11>-0.998054266</M11>
-              <M12>0.04845694</M12>
-              <M13>0.00644608261</M13>
+              <M11>-1.000026</M11>
+              <M12>0.00423236936</M12>
+              <M13>-0.0110856565</M13>
               <M14>0</M14>
-              <M21>0.0484805666</M21>
-              <M22>0.9988173</M22>
-              <M23>0.00355951674</M23>
+              <M21>0.004152335</M21>
+              <M22>0.99996525</M22>
+              <M23>0.007233047</M23>
               <M24>0</M24>
-              <M31>-0.006265908</M31>
-              <M32>0.003867885</M32>
-              <M33>-0.9992231</M33>
+              <M31>0.0111158816</M31>
+              <M32>0.00718650874</M32>
+              <M33>-1.00000882</M33>
               <M34>0</M34>
-              <M41>36.9531441</M41>
-              <M42>1.86223948</M42>
-              <M43>-20.0065784</M43>
+              <M41>37.7071152</M41>
+              <M42>1.977127</M42>
+              <M43>-19.92023</M43>
               <M44>1</M44>
               <Up>
-                <X>0.0484805666</X>
-                <Y>0.9988173</Y>
-                <Z>0.00355951674</Z>
+                <X>0.004152335</X>
+                <Y>0.99996525</Y>
+                <Z>0.007233047</Z>
               </Up>
               <Down>
-                <X>-0.0484805666</X>
-                <Y>-0.9988173</Y>
-                <Z>-0.00355951674</Z>
+                <X>-0.004152335</X>
+                <Y>-0.99996525</Y>
+                <Z>-0.007233047</Z>
               </Down>
               <Right>
-                <X>-0.998054266</X>
-                <Y>0.04845694</Y>
-                <Z>0.00644608261</Z>
+                <X>-1.000026</X>
+                <Y>0.00423236936</Y>
+                <Z>-0.0110856565</Z>
               </Right>
               <Left>
-                <X>0.998054266</X>
-                <Y>-0.04845694</Y>
-                <Z>-0.00644608261</Z>
+                <X>1.000026</X>
+                <Y>-0.00423236936</Y>
+                <Z>0.0110856565</Z>
               </Left>
               <Forward>
-                <X>0.006265908</X>
-                <Y>-0.003867885</Y>
-                <Z>0.9992231</Z>
+                <X>-0.0111158816</X>
+                <Y>-0.00718650874</Y>
+                <Z>1.00000882</Z>
               </Forward>
               <Backward>
-                <X>-0.006265908</X>
-                <Y>0.003867885</Y>
-                <Z>-0.9992231</Z>
+                <X>0.0111158816</X>
+                <Y>0.00718650874</Y>
+                <Z>-1.00000882</Z>
               </Backward>
               <Translation>
-                <X>36.9531441</X>
-                <Y>1.86223948</Y>
-                <Z>-20.0065784</Z>
+                <X>37.7071152</X>
+                <Y>1.977127</Y>
+                <Z>-19.92023</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -19945,88 +19945,88 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <AttachedEntityId>107296695071499865</AttachedEntityId>
           <MasterToSlave>
             <OrientationOffset>
-              <X>0.024252044</X>
-              <Y>0.999699056</Y>
-              <Z>0.00185218547</Z>
-              <W>-0.00318158185</W>
+              <X>0.00209616451</X>
+              <Y>0.9999759</Y>
+              <Z>0.00360528729</Z>
+              <W>0.00555007532</W>
             </OrientationOffset>
             <PositionOffset>
-              <X>39.2563934</X>
-              <Y>0.477337271</Y>
-              <Z>-20.0277</Z>
+              <X>40.06731</X>
+              <Y>0.6963124</Y>
+              <Z>-19.9024811</Z>
             </PositionOffset>
             <OrientationAsVector>
-              <X>0.024252044</X>
-              <Y>0.999699056</Y>
-              <Z>0.00185218547</Z>
-              <W>-0.00318158185</W>
+              <X>0.00209616451</X>
+              <Y>0.9999759</Y>
+              <Z>0.00360528729</Z>
+              <W>0.00555007532</W>
             </OrientationAsVector>
           </MasterToSlave>
           <GearPivotPosition>
-            <X>2.36614943</X>
-            <Y>1.27124286</Y>
-            <Z>-19.9997215</Z>
+            <X>2.365164</X>
+            <Y>1.27049029</Y>
+            <Z>-19.9997044</Z>
           </GearPivotPosition>
           <OtherPivot>
             <Position>
-              <X>37.08065</X>
-              <Y>1.78428793</Y>
-              <Z>-0.009159097</Z>
+              <X>37.48454</X>
+              <Y>1.83309662</Y>
+              <Z>0.07775745</Z>
             </Position>
             <Orientation>
-              <PackedValue>11134050112785819189</PackedValue>
+              <PackedValue>2138958456751659083</PackedValue>
             </Orientation>
             <Matrix>
-              <M11>-0.9980542</M11>
-              <M12>0.04845697</M12>
-              <M13>0.006449618</M13>
+              <M11>-1.000026</M11>
+              <M12>0.00423236936</M12>
+              <M13>-0.0110856565</M13>
               <M14>0</M14>
-              <M21>0.0484805368</M21>
-              <M22>0.9988174</M22>
-              <M23>0.00354798581</M23>
+              <M21>0.004152335</M21>
+              <M22>0.99996525</M22>
+              <M23>0.007233047</M23>
               <M24>0</M24>
-              <M31>-0.00626999838</M31>
-              <M32>0.003856539</M32>
-              <M33>-0.9992231</M33>
+              <M31>0.0111158816</M31>
+              <M32>0.00718650874</M32>
+              <M33>-1.00000882</M33>
               <M34>0</M34>
-              <M41>37.08065</M41>
-              <M42>1.78428793</M42>
-              <M43>-0.009159097</M43>
+              <M41>37.48454</M41>
+              <M42>1.83309662</M42>
+              <M43>0.07775745</M43>
               <M44>1</M44>
               <Up>
-                <X>0.0484805368</X>
-                <Y>0.9988174</Y>
-                <Z>0.00354798581</Z>
+                <X>0.004152335</X>
+                <Y>0.99996525</Y>
+                <Z>0.007233047</Z>
               </Up>
               <Down>
-                <X>-0.0484805368</X>
-                <Y>-0.9988174</Y>
-                <Z>-0.00354798581</Z>
+                <X>-0.004152335</X>
+                <Y>-0.99996525</Y>
+                <Z>-0.007233047</Z>
               </Down>
               <Right>
-                <X>-0.9980542</X>
-                <Y>0.04845697</Y>
-                <Z>0.006449618</Z>
+                <X>-1.000026</X>
+                <Y>0.00423236936</Y>
+                <Z>-0.0110856565</Z>
               </Right>
               <Left>
-                <X>0.9980542</X>
-                <Y>-0.04845697</Y>
-                <Z>-0.006449618</Z>
+                <X>1.000026</X>
+                <Y>-0.00423236936</Y>
+                <Z>0.0110856565</Z>
               </Left>
               <Forward>
-                <X>0.00626999838</X>
-                <Y>-0.003856539</Y>
-                <Z>0.9992231</Z>
+                <X>-0.0111158816</X>
+                <Y>-0.00718650874</Y>
+                <Z>1.00000882</Z>
               </Forward>
               <Backward>
-                <X>-0.00626999838</X>
-                <Y>0.003856539</Y>
-                <Z>-0.9992231</Z>
+                <X>0.0111158816</X>
+                <Y>0.00718650874</Y>
+                <Z>-1.00000882</Z>
               </Backward>
               <Translation>
-                <X>37.08065</X>
-                <Y>1.78428793</Y>
-                <Z>-0.009159097</Z>
+                <X>37.48454</X>
+                <Y>1.83309662</Y>
+                <Z>0.07775745</Z>
               </Translation>
             </Matrix>
           </OtherPivot>
@@ -20835,7 +20835,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>2.99968</CurrentStoredPower>
+          <CurrentStoredPower>2.86208129</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -20857,7 +20857,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>2.97801423</CurrentStoredPower>
+          <CurrentStoredPower>2.86169147</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -20879,7 +20879,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>2.98968315</CurrentStoredPower>
+          <CurrentStoredPower>2.86072016</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -20901,7 +20901,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>2.97988272</CurrentStoredPower>
+          <CurrentStoredPower>2.860321</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -21001,7 +21001,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                   <Inventories>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items />
-                      <nextItemId>48</nextItemId>
+                      <nextItemId>0</nextItemId>
                       <Volume>4</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -21011,7 +21011,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                     </MyObjectBuilder_InventoryBase>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items />
-                      <nextItemId>34</nextItemId>
+                      <nextItemId>0</nextItemId>
                       <Volume>4</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -21055,7 +21055,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                   <Inventories>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items />
-                      <nextItemId>20</nextItemId>
+                      <nextItemId>0</nextItemId>
                       <Volume>7.5</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -21070,10 +21070,10 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                           <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                             <SubtypeName>Stone</SubtypeName>
                           </PhysicalContent>
-                          <ItemId>17</ItemId>
+                          <ItemId>0</ItemId>
                         </MyObjectBuilder_InventoryItem>
                       </Items>
-                      <nextItemId>22</nextItemId>
+                      <nextItemId>1</nextItemId>
                       <Volume>7.5</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -21155,10 +21155,10 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                         <SubtypeName>HydrogenBottle</SubtypeName>
                         <GasLevel>1</GasLevel>
                       </PhysicalContent>
-                      <ItemId>8</ItemId>
+                      <ItemId>0</ItemId>
                     </MyObjectBuilder_InventoryItem>
                   </Items>
-                  <nextItemId>9</nextItemId>
+                  <nextItemId>1</nextItemId>
                   <Volume>0.75</Volume>
                   <Mass>9223372036854.775807</Mass>
                   <MaxItemCount>2147483647</MaxItemCount>
@@ -21249,18 +21249,102 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <IsLocked>false</IsLocked>
+          <IsLocked>true</IsLocked>
           <BrakeForce>-INF</BrakeForce>
           <AutoLock>true</AutoLock>
           <FirstLockAttempt>false</FirstLockAttempt>
           <LockSound>ArcShipLandGearOn</LockSound>
           <UnlockSound>ArcShipLandGearOff</UnlockSound>
           <FailedAttachSound>ArcShipLandGearNothing01</FailedAttachSound>
-          <AttachedEntityId xsi:nil="true" />
-          <MasterToSlave xsi:nil="true" />
-          <GearPivotPosition xsi:nil="true" />
-          <OtherPivot xsi:nil="true" />
-          <LockMode>Unlocked</LockMode>
+          <AttachedEntityId>107296695071499865</AttachedEntityId>
+          <MasterToSlave>
+            <OrientationOffset>
+              <X>0.00209616451</X>
+              <Y>0.9999759</Y>
+              <Z>0.00360528729</Z>
+              <W>0.00555007532</W>
+            </OrientationOffset>
+            <PositionOffset>
+              <X>40.06731</X>
+              <Y>0.6963124</Y>
+              <Z>-19.9024811</Z>
+            </PositionOffset>
+            <OrientationAsVector>
+              <X>0.00209616451</X>
+              <Y>0.9999759</Y>
+              <Z>0.00360528729</Z>
+              <W>0.00555007532</W>
+            </OrientationAsVector>
+          </MasterToSlave>
+          <GearPivotPosition>
+            <X>30.1341934</X>
+            <Y>1.27044189</Y>
+            <Z>-20.0001011</Z>
+          </GearPivotPosition>
+          <OtherPivot>
+            <Position>
+              <X>9.717457</X>
+              <Y>1.95057309</Y>
+              <Z>-0.2296605</Z>
+            </Position>
+            <Orientation>
+              <PackedValue>2138958456751659083</PackedValue>
+            </Orientation>
+            <Matrix>
+              <M11>-1.000026</M11>
+              <M12>0.00423236936</M12>
+              <M13>-0.0110856565</M13>
+              <M14>0</M14>
+              <M21>0.004152335</M21>
+              <M22>0.99996525</M22>
+              <M23>0.007233047</M23>
+              <M24>0</M24>
+              <M31>0.0111158816</M31>
+              <M32>0.00718650874</M32>
+              <M33>-1.00000882</M33>
+              <M34>0</M34>
+              <M41>9.717457</M41>
+              <M42>1.95057309</M42>
+              <M43>-0.2296605</M43>
+              <M44>1</M44>
+              <Up>
+                <X>0.004152335</X>
+                <Y>0.99996525</Y>
+                <Z>0.007233047</Z>
+              </Up>
+              <Down>
+                <X>-0.004152335</X>
+                <Y>-0.99996525</Y>
+                <Z>-0.007233047</Z>
+              </Down>
+              <Right>
+                <X>-1.000026</X>
+                <Y>0.00423236936</Y>
+                <Z>-0.0110856565</Z>
+              </Right>
+              <Left>
+                <X>1.000026</X>
+                <Y>-0.00423236936</Y>
+                <Z>0.0110856565</Z>
+              </Left>
+              <Forward>
+                <X>-0.0111158816</X>
+                <Y>-0.00718650874</Y>
+                <Z>1.00000882</Z>
+              </Forward>
+              <Backward>
+                <X>0.0111158816</X>
+                <Y>0.00718650874</Y>
+                <Z>-1.00000882</Z>
+              </Backward>
+              <Translation>
+                <X>9.717457</X>
+                <Y>1.95057309</Y>
+                <Z>-0.2296605</Z>
+              </Translation>
+            </Matrix>
+          </OtherPivot>
+          <LockMode>Locked</LockMode>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -21319,7 +21403,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ComponentContainer>
             <Components>
               <ComponentData>
-                <TypeId>MyModStorageComponentBase</TypeId>
+                <TypeId>MyModStorageComponent</TypeId>
                 <Component xsi:type="MyObjectBuilder_ModStorageComponent">
                   <Storage>
                     <dictionary>
@@ -21466,14 +21550,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <SlotsGamepad />
           </BuildToolbar>
           <PilotRelativeWorld>
-            <Position x="-0.21209840476512909" y="-1.7644459009170532" z="2.0153036117553711" />
-            <Forward x="0.04236188" y="-0.079293415" z="-0.995950758" />
-            <Up x="0.004383406" y="0.9968508" z="-0.0791787952" />
+            <Position x="2.967942476272583" y="-1.6325408220291138" z="-1.6026327610015869" />
+            <Forward x="-0.936246932" y="0.09031228" z="0.339537233" />
+            <Up x="0.149412066" y="0.9770029" z="0.152122572" />
             <Orientation>
-              <X>-0.03965821</X>
-              <Y>-0.0212560315</Y>
-              <Z>-0.00135009177</Z>
-              <W>0.9989863</W>
+              <X>0.105527185</X>
+              <Y>0.8115618</Y>
+              <Z>0.0190405343</Z>
+              <W>0.574342132</W>
             </Orientation>
           </PilotRelativeWorld>
           <PilotGunDefinition Type="MyObjectBuilder_Welder" Subtype="Welder2" />
@@ -22477,7 +22561,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>2.99564362</CurrentStoredPower>
+          <CurrentStoredPower>2.859366</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -22499,7 +22583,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>2.99968028</CurrentStoredPower>
+          <CurrentStoredPower>2.85988283</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -22735,11 +22819,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <EntityId>81011711825181489</EntityId>
           <Name>81011711825181489</Name>
           <Min x="0" y="8" z="-11" />
-          <IntegrityPercent>0.8671626</IntegrityPercent>
-          <BuildPercent>0.99999994</BuildPercent>
+          <IntegrityPercent>0.8405951</IntegrityPercent>
+          <BuildPercent>0.9999999</BuildPercent>
           <ConstructionStockpile>
             <Items xsi:type="MyObjectBuilder_StockpileItem">
-              <Amount>26</Amount>
+              <Amount>32</Amount>
               <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                 <SubtypeName>Scrap</SubtypeName>
               </PhysicalContent>
@@ -22755,7 +22839,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.9380682</float>
+            <float>0.9396128</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
@@ -22781,11 +22865,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.9457378</float>
+            <float>0.928474</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174516439</float>
+            <float>0.174505115</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
@@ -22807,7 +22891,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.960587442</float>
+            <float>0.9632476</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
@@ -22815,7 +22899,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>0</float>
             <float>1</float>
             <float>1</float>
-            <float>0.1744293</float>
+            <float>0.174464971</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_WindTurbine">
@@ -22834,7 +22918,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.9931651</float>
+            <float>0.996996164</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
@@ -22900,7 +22984,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174466461</float>
+            <float>0.174522877</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
@@ -22924,7 +23008,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ImmediateEffectivities>
             <float>1</float>
             <float>1</float>
-            <float>0.1745015</float>
+            <float>0.174501836</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
@@ -22952,133 +23036,133 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>BulletproofGlass</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>1</ItemId>
+                      <ItemId>0</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>5</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>SolarCell</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>2</ItemId>
+                      <ItemId>1</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>557</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>LargeTube</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>3</ItemId>
+                      <ItemId>2</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>5</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Display</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>5</ItemId>
+                      <ItemId>3</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>6</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>MetalGrid</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>6</ItemId>
+                      <ItemId>4</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>38902.907383</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Iron</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>7</ItemId>
+                      <ItemId>5</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>3715.878865</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Nickel</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>9</ItemId>
+                      <ItemId>6</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>451.952337</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Cobalt</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>10</ItemId>
+                      <ItemId>7</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>122.662604</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Silver</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>11</ItemId>
+                      <ItemId>8</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>810</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Motor</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>15</ItemId>
+                      <ItemId>9</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>6</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_ConsumableItem">
                         <SubtypeName>Medkit</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>17</ItemId>
+                      <ItemId>10</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>5</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_ConsumableItem">
                         <SubtypeName>Powerkit</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>18</ItemId>
+                      <ItemId>11</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>1585.544576</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Stone</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>19</ItemId>
+                      <ItemId>12</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>3755</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>SteelPlate</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>20</ItemId>
+                      <ItemId>13</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>533</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Girder</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>21</ItemId>
+                      <ItemId>14</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>2786</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_PhysicalObject">
                         <SubtypeName>SpaceCredit</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>22</ItemId>
+                      <ItemId>15</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>421</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>SmallTube</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>25</ItemId>
+                      <ItemId>16</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>903</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>InteriorPlate</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>26</ItemId>
+                      <ItemId>17</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>333</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>PowerCell</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>29</ItemId>
+                      <ItemId>18</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>1</Amount>
@@ -23086,52 +23170,52 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                         <SubtypeName>HydrogenBottle</SubtypeName>
                         <GasLevel>1</GasLevel>
                       </PhysicalContent>
-                      <ItemId>30</ItemId>
+                      <ItemId>19</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>4</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>RadioCommunication</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>31</ItemId>
+                      <ItemId>20</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>467.967196</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Silicon</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>32</ItemId>
+                      <ItemId>21</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>115.453635</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Gold</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>33</ItemId>
+                      <ItemId>22</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>327</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Construction</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>34</ItemId>
+                      <ItemId>23</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>1337</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Computer</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>35</ItemId>
+                      <ItemId>24</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>20</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Superconductor</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>36</ItemId>
+                      <ItemId>25</ItemId>
                     </MyObjectBuilder_InventoryItem>
                   </Items>
-                  <nextItemId>37</nextItemId>
+                  <nextItemId>26</nextItemId>
                   <Volume>421.875008</Volume>
                   <Mass>9223372036854.775807</Mass>
                   <MaxItemCount>2147483647</MaxItemCount>
@@ -23217,41 +23301,12 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <CollectAll>true</CollectAll>
-          <ConnectedEntityId>89956885154322648</ConnectedEntityId>
-          <MasterToSlaveTransform>
-            <Position x="0.074574887752532959" y="0.44230851531028748" z="-2.5487375259399414" />
-            <Forward x="-0.000538729248" y="0.0463144034" z="0.9989265" />
-            <Up x="0.00638550753" y="0.9989067" z="-0.04631003" />
-            <Orientation>
-              <X>0.00318567432</X>
-              <Y>0.9997266</Y>
-              <Z>-0.0231624469</Z>
-              <W>0.00034324656</W>
-            </Orientation>
-          </MasterToSlaveTransform>
-          <MasterToSlaveGrid>
-            <OrientationOffset>
-              <X>0.513209</X>
-              <Y>0.4868608</Y>
-              <Z>-0.509680033</Z>
-              <W>-0.489703238</W>
-            </OrientationOffset>
-            <PositionOffset>
-              <X>-7.52374649</X>
-              <Y>-14.2620659</Y>
-              <Z>3.13429236</Z>
-            </PositionOffset>
-            <OrientationAsVector>
-              <X>0.513209</X>
-              <Y>0.4868608</Y>
-              <Z>-0.509680033</Z>
-              <W>-0.489703238</W>
-            </OrientationAsVector>
-          </MasterToSlaveGrid>
+          <MasterToSlaveTransform xsi:nil="true" />
+          <MasterToSlaveGrid xsi:nil="true" />
           <IsMaster>true</IsMaster>
           <TradingEnabled>false</TradingEnabled>
           <AutoUnlockTime>0</AutoUnlockTime>
-          <TimeOfConnection>763278</TimeOfConnection>
+          <TimeOfConnection>0</TimeOfConnection>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorSlope</SubtypeName>
@@ -23367,76 +23422,16 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       </CubeBlocks>
       <Skeleton>
         <BoneInfo>
-          <BonePosition x="25" y="13" z="-18" />
-          <BoneOffset x="127" y="127" z="119" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="21" y="8" z="-13" />
-          <BoneOffset x="127" y="125" z="128" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="29" y="9" z="-18" />
-          <BoneOffset x="127" y="127" z="130" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="29" y="9" z="-16" />
           <BoneOffset x="127" y="127" z="136" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="29" y="10" z="-15" />
-          <BoneOffset x="127" y="125" z="136" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="12" z="-19" />
-          <BoneOffset x="128" y="126" z="117" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="12" z="-18" />
-          <BoneOffset x="127" y="126" z="131" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="29" y="8" z="-18" />
-          <BoneOffset x="127" y="127" z="129" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="8" z="-7" />
-          <BoneOffset x="127" y="125" z="121" />
+          <BonePosition x="25" y="8" z="-9" />
+          <BoneOffset x="127" y="127" z="116" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="25" y="6" z="-9" />
           <BoneOffset x="128" y="131" z="126" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="8" z="-8" />
-          <BoneOffset x="127" y="125" z="124" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="15" z="-18" />
-          <BoneOffset x="127" y="127" z="124" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="16" z="-19" />
-          <BoneOffset x="127" y="126" z="131" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="19" y="15" z="-18" />
-          <BoneOffset x="127" y="127" z="126" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="16" z="-18" />
-          <BoneOffset x="127" y="125" z="131" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="14" z="-18" />
-          <BoneOffset x="127" y="128" z="133" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="14" z="-19" />
-          <BoneOffset x="127" y="127" z="132" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="25" y="8" z="-9" />
-          <BoneOffset x="127" y="127" z="116" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="25" y="6" z="-7" />
@@ -23447,8 +23442,68 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <BoneOffset x="127" y="128" z="123" />
         </BoneInfo>
         <BoneInfo>
+          <BonePosition x="25" y="13" z="-18" />
+          <BoneOffset x="127" y="127" z="119" />
+        </BoneInfo>
+        <BoneInfo>
           <BonePosition x="21" y="6" z="-13" />
           <BoneOffset x="127" y="129" z="125" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="29" y="10" z="-15" />
+          <BoneOffset x="127" y="125" z="136" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="21" y="8" z="-13" />
+          <BoneOffset x="127" y="125" z="128" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="29" y="9" z="-18" />
+          <BoneOffset x="127" y="127" z="130" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="15" z="-18" />
+          <BoneOffset x="127" y="127" z="124" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="29" y="8" z="-18" />
+          <BoneOffset x="127" y="127" z="129" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="14" z="-18" />
+          <BoneOffset x="127" y="128" z="133" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="14" z="-19" />
+          <BoneOffset x="127" y="127" z="132" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="16" z="-19" />
+          <BoneOffset x="127" y="126" z="131" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="16" z="-18" />
+          <BoneOffset x="127" y="125" z="131" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="8" z="-7" />
+          <BoneOffset x="127" y="125" z="121" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="12" z="-19" />
+          <BoneOffset x="128" y="126" z="117" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="8" z="-8" />
+          <BoneOffset x="127" y="125" z="124" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="19" y="15" z="-18" />
+          <BoneOffset x="127" y="127" z="126" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="25" y="12" z="-18" />
+          <BoneOffset x="127" y="126" z="131" />
         </BoneInfo>
       </Skeleton>
       <ConveyorLines>
@@ -23774,7 +23829,6 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           </Blocks>
         </MyObjectBuilder_BlockGroup>
       </BlockGroups>
-      <Handbrake>true</Handbrake>
       <DisplayName>Static Grid 9650</DisplayName>
       <DestructibleBlocks>true</DestructibleBlocks>
       <IsRespawnGrid>false</IsRespawnGrid>
@@ -23787,14 +23841,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>97648869028771988</Name>
       <PositionAndOrientation>
-        <Position x="-97925.835325995853" y="50614.606333701449" z="68390.024402761643" />
-        <Forward x="0.404170483" y="-0.138713151" z="-0.9041045" />
-        <Up x="0.28867963" y="-0.9185709" z="0.269983947" />
+        <Position x="-97925.8312610522" y="50614.607459638952" z="68390.024257637051" />
+        <Forward x="0.4044215" y="-0.13546674" z="-0.904484332" />
+        <Up x="0.291161716" y="-0.918442667" z="0.267744362" />
         <Orientation>
-          <X>-0.191397533</X>
-          <Y>0.106370814</Y>
-          <Z>0.960548043</Z>
-          <W>-0.171463534</W>
+          <X>-0.191683874</X>
+          <Y>0.104952872</Y>
+          <Z>0.9604576</Z>
+          <W>-0.1725206</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -23830,14 +23884,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>95677485990807782</Name>
       <PositionAndOrientation>
-        <Position x="-99274.289671698978" y="51463.768443076449" z="75454.35142912883" />
-        <Forward x="0.2157569" y="0.7349004" z="0.642938256" />
-        <Up x="-0.853013635" y="0.462299764" z="-0.242170215" />
+        <Position x="-99274.28987921626" y="51463.768592451452" z="75454.351284004239" />
+        <Forward x="0.215698212" y="0.734936833" z="0.642916441" />
+        <Up x="-0.8529935" y="0.462284058" z="-0.2422714" />
         <Orientation>
-          <X>-0.419951618</X>
-          <Y>0.8031873</Y>
-          <Z>-0.304123044</Z>
-          <W>-0.293325663</W>
+          <X>-0.419931024</X>
+          <Y>0.8031913</Y>
+          <Z>-0.30416432</Z>
+          <W>-0.293301463</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -23854,14 +23908,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>123762270828152928</Name>
       <PositionAndOrientation>
-        <Position x="-99272.783324042728" y="51463.661997763949" z="75452.84605803508" />
-        <Forward x="0.3012377" y="0.02490522" z="-0.953223765" />
-        <Up x="-0.7522576" y="0.6205151" z="-0.221516013" />
+        <Position x="-99272.783165349072" y="51463.662147138952" z="75452.846279121426" />
+        <Forward x="0.30083707" y="0.025203377" z="-0.9533425" />
+        <Up x="-0.7497108" y="0.6240981" z="-0.220079854" />
         <Orientation>
-          <X>-0.055303622</X>
-          <Y>-0.142581984</Y>
-          <Z>0.432069361</Z>
-          <W>0.8887789</W>
+          <X>-0.0547537655</X>
+          <Y>-0.142586082</Y>
+          <Z>0.430061549</Z>
+          <W>0.8897855</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -23878,14 +23932,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>77458210927480328</Name>
       <PositionAndOrientation>
-        <Position x="-99274.073241034916" y="51465.135630576449" z="75456.214588308518" />
-        <Forward x="-0.226464391" y="-0.7386545" z="-0.6349042" />
-        <Up x="0.853306055" y="-0.4647663" z="0.236348182" />
+        <Position x="-99274.072349919385" y="51465.135779951452" z="75456.214443183926" />
+        <Forward x="-0.221360832" y="-0.741288543" z="-0.6336328" />
+        <Up x="0.8519306" y="-0.4631924" z="0.2442668" />
         <Orientation>
-          <X>0.3000835</X>
-          <Y>0.304134429</Y>
-          <Z>0.8014569</Z>
-          <W>-0.4184721</W>
+          <X>0.297906727</X>
+          <Y>0.307303041</Y>
+          <Z>0.801778</Z>
+          <W>-0.417095244</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -23902,14 +23956,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>127115640449491170</Name>
       <PositionAndOrientation>
-        <Position x="-99274.802367011478" y="51462.470591513949" z="75456.177723074143" />
-        <Forward x="-0.6589823" y="-0.6359403" z="0.401649117" />
-        <Up x="0.746869266" y="-0.6164584" z="0.24932906" />
+        <Position x="-99274.80257452876" y="51462.470740888952" z="75456.177944160489" />
+        <Forward x="-0.659180343" y="-0.6357738" z="0.401587933" />
+        <Up x="0.7467111" y="-0.6165389" z="0.249603957" />
         <Orientation>
-          <X>0.72580117</X>
-          <Y>0.417177737</Y>
-          <Z>0.530511</Z>
-          <W>-0.133167073</W>
+          <X>0.7257806</X>
+          <Y>0.4171768</Y>
+          <Z>0.530577064</Z>
+          <W>-0.133018777</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -23926,14 +23980,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>83596456501505544</Name>
       <PositionAndOrientation>
-        <Position x="-99274.956297675541" y="51462.687388388949" z="75454.629383230393" />
-        <Forward x="0.03646314" y="-0.408076942" z="-0.912219048" />
-        <Up x="0.85182935" y="-0.464620858" z="0.241895437" />
+        <Position x="-99274.956993474072" y="51462.686561201452" z="75454.629116035489" />
+        <Forward x="0.0363106281" y="-0.4079859" z="-0.9122659" />
+        <Up x="0.852324" y="-0.463962018" z="0.241419047" />
         <Orientation>
-          <X>0.0863913745</X>
-          <Y>0.190858573</Y>
-          <Z>0.8513795</Z>
-          <W>-0.480897576</W>
+          <X>0.08652144</X>
+          <Y>0.190738291</Y>
+          <Z>0.851172745</Z>
+          <W>-0.481287748</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24022,14 +24076,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>114114009629374730</Name>
       <PositionAndOrientation>
-        <Position x="-95663.7537830271" y="51797.400279013949" z="65621.448230886643" />
-        <Forward x="0.574332237" y="0.801766455" z="-0.165266335" />
-        <Up x="-0.774024367" y="0.466136" z="-0.428489745" />
+        <Position x="-95663.754356755322" y="51797.399451826452" z="65621.449062324551" />
+        <Forward x="0.573999465" y="0.8019604" z="-0.165480554" />
+        <Up x="-0.7744162" y="0.465979338" z="-0.427951634" />
         <Orientation>
-          <X>0.159754127</X>
-          <Y>-0.6259756</Y>
-          <Z>0.491335541</Z>
-          <W>0.584142566</W>
+          <X>0.160039335</X>
+          <Y>-0.6258171</Y>
+          <Z>0.4913225</Z>
+          <W>0.584245265</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24084,14 +24138,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>133971050364983315</Name>
       <PositionAndOrientation>
-        <Position x="-95490.9705799021" y="51953.435435263949" z="65505.543934011643" />
-        <Forward x="0.7909247" y="0.459134042" z="-0.404516578" />
-        <Up x="-0.6118539" y="0.584207" z="-0.533232331" />
+        <Position x="-95490.969688786572" y="51953.434608076452" z="65505.543788887051" />
+        <Forward x="0.795031" y="0.455408573" z="-0.400659978" />
+        <Up x="-0.606505036" y="0.587294459" z="-0.535944641" />
         <Orientation>
-          <X>-0.0263281781</X>
-          <Y>-0.545021534</Y>
-          <Z>0.455195934</Z>
-          <W>0.7036014</W>
+          <X>-0.0286230985</X>
+          <Y>-0.5466724</Y>
+          <Z>0.453358054</Z>
+          <W>0.7034177</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24127,14 +24181,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>105412023433930988</Name>
       <PositionAndOrientation>
-        <Position x="-95483.8846424021" y="51957.151255576449" z="65501.908191824143" />
-        <Forward x="0.2953805" y="-0.5007493" z="-0.8136341" />
-        <Up x="0.563745439" y="-0.5962104" z="0.571597755" />
+        <Position x="-95483.885216130322" y="51957.151404951452" z="65501.909023262051" />
+        <Forward x="0.292925119" y="-0.4981474" z="-0.816115141" />
+        <Up x="0.5660255" y="-0.597571" z="0.5679119" />
         <Orientation>
-          <X>-0.053037703</X>
-          <Y>0.300615937</Y>
-          <Z>0.8917916</Z>
-          <W>-0.3339533</W>
+          <X>-0.05211805</X>
+          <Y>0.2987074</Y>
+          <Z>0.8922271</Z>
+          <W>-0.334646642</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24151,14 +24205,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>89189236161721942</Name>
       <PositionAndOrientation>
-        <Position x="-95486.4031970896" y="51946.114146201449" z="65492.820301199143" />
-        <Forward x="-0.298139632" y="-0.7859582" z="-0.5416479" />
-        <Up x="0.5627099" y="-0.6030842" z="0.5653728" />
+        <Position x="-95486.402794255322" y="51946.114295576452" z="65492.820156074551" />
+        <Forward x="-0.298816681" y="-0.785211563" z="-0.5423571" />
+        <Up x="0.562573254" y="-0.6040113" z="0.5645186" />
         <Orientation>
-          <X>0.269452065</X>
-          <Y>0.395691335</Y>
-          <Z>0.853778541</Z>
-          <W>-0.204661</W>
+          <X>0.2696284</X>
+          <Y>0.3951227</Y>
+          <Z>0.85399437</Z>
+          <W>-0.204627052</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24175,14 +24229,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>114972076234395169</Name>
       <PositionAndOrientation>
-        <Position x="-95486.1678455271" y="51946.260630576449" z="65492.622059011643" />
-        <Forward x="0.240148187" y="0.774508" z="0.585206449" />
-        <Up x="0.2541139" y="-0.631983161" z="0.7321365" />
+        <Position x="-95486.169395817822" y="51946.259803388952" z="65492.621913887051" />
+        <Forward x="0.241193458" y="0.7746668" z="0.5845652" />
+        <Up x="0.252443582" y="-0.6316939" z="0.732962847" />
         <Orientation>
-          <X>0.8879858</X>
-          <Y>0.06390916</Y>
-          <Z>-0.165748939</Z>
-          <W>0.4241746</W>
+          <X>0.8878807</X>
+          <Y>0.06285403</Y>
+          <Z>-0.1658764</Z>
+          <W>0.424502432</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24201,12 +24255,12 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PositionAndOrientation>
         <Position x="-94762.005798499682" y="51094.883164880754" z="63955.332402415806" />
         <Forward x="0.006222963" y="-0.707716942" z="-0.706468642" />
-        <Up x="-0.761180758" y="0.454817235" z="-0.462325752" />
+        <Up x="-0.761180758" y="0.454817235" z="-0.462325782" />
         <Orientation>
-          <X>-0.3490072</X>
-          <Y>0.157986283</Y>
-          <Z>0.388310939</Z>
-          <W>0.838122249</W>
+          <X>-0.349007159</X>
+          <Y>0.157986268</Y>
+          <Z>0.3883109</Z>
+          <W>0.8381223</W>
         </Orientation>
       </PositionAndOrientation>
       <ContentChanged>false</ContentChanged>
@@ -24237,14 +24291,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>107525862275910489</Name>
       <PositionAndOrientation>
-        <Position x="-95488.3026111521" y="51953.112193076449" z="65502.241199636643" />
-        <Forward x="0.7441918" y="0.147553608" z="-0.6514648" />
-        <Up x="0.5965486" y="-0.5855945" z="0.5488248" />
+        <Position x="-95488.302696599072" y="51953.112342451452" z="65502.241054512051" />
+        <Forward x="0.7435746" y="0.147618145" z="-0.6521547" />
+        <Up x="0.5962103" y="-0.587911248" z="0.546711564" />
         <Orientation>
-          <X>-0.398000181</X>
-          <Y>0.125950187</Y>
-          <Z>0.796488</Z>
-          <W>-0.4374235</W>
+          <X>-0.397822857</X>
+          <Y>0.125138521</Y>
+          <Z>0.7973033</Z>
+          <W>-0.436330974</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24261,14 +24315,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>123791501777078330</Name>
       <PositionAndOrientation>
-        <Position x="-95487.3289783396" y="51956.005747763949" z="65504.276355886643" />
-        <Forward x="-0.2367301" y="0.518043339" z="0.8219428" />
-        <Up x="-0.5965857" y="0.590212047" z="-0.543815434" />
+        <Position x="-95487.328575505322" y="51956.005897138952" z="65504.276210762051" />
+        <Forward x="-0.239055321" y="0.5202253" z="0.8198888" />
+        <Up x="-0.5926933" y="0.5906498" z="-0.5475831" />
         <Orientation>
-          <X>-0.3409143</X>
-          <Y>0.8914869</Y>
-          <Z>-0.297777474</Z>
-          <W>0.0188992713</W>
+          <X>-0.339155316</X>
+          <Y>0.891581833</Y>
+          <Z>-0.299414128</Z>
+          <W>0.0201661922</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24285,14 +24339,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>128211013920600235</Name>
       <PositionAndOrientation>
-        <Position x="-93899.2391345896" y="51265.730357138949" z="63117.614246511643" />
-        <Forward x="-0.7438571" y="-0.3392045" z="0.575861454" />
-        <Up x="0.665549636" y="-0.454587817" z="0.5919401" />
+        <Position x="-93899.239220036572" y="51265.729529951452" z="63117.613124824551" />
+        <Forward x="-0.7455168" y="-0.334547639" z="0.5764393" />
+        <Up x="0.6632428" y="-0.457624435" z="0.5921897" />
         <Orientation>
-          <X>0.723090649</X>
-          <Y>0.51485014</Y>
-          <Z>0.452143639</Z>
-          <W>0.08738037</W>
+          <X>0.72452414</X>
+          <Y>0.513112545</Y>
+          <Z>0.451527417</Z>
+          <W>0.0889004543</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24309,14 +24363,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>78122287476071775</Name>
       <PositionAndOrientation>
-        <Position x="-95501.278685370853" y="51945.796763388949" z="65509.520496511643" />
-        <Forward x="0.5945319" y="-0.0450443625" z="-0.8028093" />
-        <Up x="0.64356637" y="-0.5718876" z="0.508690238" />
+        <Position x="-95501.276817692822" y="51945.797889326452" z="65509.519374824551" />
+        <Forward x="0.595978141" y="-0.0463474542" z="-0.801661968" />
+        <Up x="0.6413048" y="-0.573339343" z="0.5099114" />
         <Orientation>
-          <X>-0.2678843</X>
-          <Y>0.163808838</Y>
-          <Z>0.8450929</Z>
-          <W>-0.432692379</W>
+          <X>-0.268523723</X>
+          <Y>0.164511472</Y>
+          <Z>0.845319331</Z>
+          <W>-0.431585729</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24333,14 +24387,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>136779998380227004</Name>
       <PositionAndOrientation>
-        <Position x="-95490.8631580271" y="51947.870982138949" z="65499.357410574143" />
-        <Forward x="0.178296879" y="0.7605273" z="0.6243457" />
-        <Up x="0.594908655" y="-0.5887277" z="0.54725" />
+        <Position x="-95490.862266911572" y="51947.871131513952" z="65499.357265449551" />
+        <Forward x="0.177388743" y="0.7614093" z="0.623528957" />
+        <Up x="0.598289251" y="-0.5864874" z="0.545968652" />
         <Orientation>
-          <X>0.8655696</X>
-          <Y>0.2509229</Y>
-          <Z>-0.212493032</Z>
-          <W>0.377721757</W>
+          <X>0.8647854</X>
+          <Y>0.252805978</Y>
+          <Z>-0.213049546</Z>
+          <W>0.377948821</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24381,14 +24435,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>78445276925432017</Name>
       <PositionAndOrientation>
-        <Position x="-95487.8026111521" y="51956.426646201449" z="65505.249012136643" />
-        <Forward x="0.6574785" y="0.7466382" z="0.101256423" />
-        <Up x="0.590766668" y="-0.594237149" z="0.5457804" />
+        <Position x="-95487.802696599072" y="51956.426795576452" z="65505.248867012051" />
+        <Forward x="0.6556884" y="0.7484329" z="0.09960074" />
+        <Up x="0.591851234" y="-0.5913958" z="0.5476881" />
         <Orientation>
-          <X>0.7353851</X>
-          <Y>0.0991816</Y>
-          <Z>-0.5062879</Z>
-          <W>0.439368069</W>
+          <X>0.734814346</X>
+          <Y>0.0992384255</Y>
+          <Z>-0.5057133</Z>
+          <W>0.44096905</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -24429,14 +24483,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>111016968148442208</Name>
       <PositionAndOrientation>
-        <Position x="-95671.7879627146" y="51795.151255576449" z="65630.967762136643" />
-        <Forward x="0.416579425" y="0.9043528" z="0.09277624" />
-        <Up x="-0.7369648" y="0.395693421" z="-0.548004866" />
+        <Position x="-95671.789024724072" y="51795.150428388952" z="65630.968593574551" />
+        <Forward x="0.4165878" y="0.904348254" z="0.092782855" />
+        <Up x="-0.7369476" y="0.3957001" z="-0.548023343" />
         <Orientation>
-          <X>-0.202966869</X>
-          <Y>0.710769</Y>
-          <Z>-0.5108403</Z>
-          <W>-0.438923746</W>
+          <X>-0.202956066</X>
+          <Y>0.7107744</Y>
+          <Z>-0.5108413</Z>
+          <W>-0.4389188</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -24733,7 +24787,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.3307051</CurrentStoredPower>
+          <CurrentStoredPower>0.335761756</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -26913,14 +26967,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>116005499045618110</Name>
       <PositionAndOrientation>
-        <Position x="-95490.270872870853" y="51945.067271201449" z="65495.696277761643" />
-        <Forward x="0.393586248" y="0.80240494" z="0.44859302" />
-        <Up x="-0.5935049" y="0.5944489" z="-0.5425702" />
+        <Position x="-95490.271446599072" y="51945.067420576452" z="65495.697109199551" />
+        <Forward x="0.3951468" y="0.800982535" z="0.449762583" />
+        <Up x="-0.5924829" y="0.5963832" z="-0.5415636" />
         <Orientation>
-          <X>-0.195011258</X>
-          <Y>0.8284124</Y>
-          <Z>-0.405889422</Z>
-          <W>-0.3331024</W>
+          <X>-0.194528565</X>
+          <Y>0.8288787</Y>
+          <Z>-0.404928327</Z>
+          <W>-0.333394349</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -26956,14 +27010,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>112609933815391347</Name>
       <PositionAndOrientation>
-        <Position x="-95490.1121814646" y="51952.180552451449" z="65503.212879324143" />
-        <Forward x="-0.7657843" y="-0.6151754" z="0.187438667" />
-        <Up x="0.6023063" y="-0.583920538" z="0.544300854" />
+        <Position x="-95490.112755192822" y="51952.180701826452" z="65503.212734199551" />
+        <Forward x="-0.772051454" y="-0.609094739" z="0.181493074" />
+        <Up x="0.593502939" y="-0.5887879" z="0.548709869" />
         <Orientation>
-          <X>0.6216848</X>
-          <Y>0.455222249</Y>
-          <Z>0.636764</Z>
-          <W>-0.0285009779</W>
+          <X>0.6210728</X>
+          <Y>0.452785939</Y>
+          <Z>0.639267266</Z>
+          <W>-0.02430666</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -26980,14 +27034,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>122354891847894674</Name>
       <PositionAndOrientation>
-        <Position x="-95490.7606189646" y="51946.877818076449" z="65498.182605886643" />
-        <Forward x="-0.327212423" y="-0.7961485" z="-0.5089985" />
-        <Up x="0.5922856" y="-0.5925073" z="0.546014965" />
+        <Position x="-95490.761680974072" y="51946.876014326452" z="65498.183437324551" />
+        <Forward x="-0.326033831" y="-0.7973312" z="-0.507902443" />
+        <Up x="0.592693448" y="-0.590957" z="0.547251463" />
         <Orientation>
-          <X>0.294624567</X>
-          <Y>0.398368031</Y>
-          <Z>0.8422887</Z>
-          <W>-0.2122477</W>
+          <X>0.294349045</X>
+          <Y>0.3992586</Y>
+          <Z>0.841924667</Z>
+          <W>-0.212400675</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -27004,14 +27058,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>139192488813417363</Name>
       <PositionAndOrientation>
-        <Position x="-95491.446654120853" y="51955.231333701449" z="65508.060535574143" />
-        <Forward x="-0.7006478" y="-0.7129023" z="0.0293753147" />
-        <Up x="-0.6152823" y="0.5828347" z="-0.5307838" />
+        <Position x="-95491.446739567822" y="51955.231483076452" z="65508.060390449551" />
+        <Forward x="-0.7005748" y="-0.712971032" z="0.0294421911" />
+        <Up x="-0.6153277" y="0.5827068" z="-0.530871332" />
         <Orientation>
-          <X>-0.449393064</X>
-          <Y>0.5592258</Y>
-          <Z>0.08141549</Z>
-          <W>0.691869855</W>
+          <X>-0.449465</X>
+          <Y>0.5591979</Y>
+          <Z>0.08141115</Z>
+          <W>0.6918462</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -27052,14 +27106,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>139925307841176649</Name>
       <PositionAndOrientation>
-        <Position x="-95484.764036933353" y="51956.581919638949" z="65502.192371511643" />
-        <Forward x="0.7900034" y="0.205678225" z="-0.5775733" />
-        <Up x="-0.568982244" y="0.596851766" z="-0.565709352" />
+        <Position x="-95484.764122380322" y="51956.582069013952" z="65502.192226387051" />
+        <Forward x="0.7899976" y="0.205694661" z="-0.5775755" />
+        <Up x="-0.568993" y="0.5968511" z="-0.5656993" />
         <Orientation>
-          <X>-0.116131887</X>
-          <Y>-0.444664717</Y>
-          <Z>0.433690548</Z>
-          <W>0.775047839</W>
+          <X>-0.11612346</X>
+          <Y>-0.4446657</Y>
+          <Z>0.4336932</Z>
+          <W>0.775047064</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -27076,14 +27130,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>139740918002064051</Name>
       <PositionAndOrientation>
-        <Position x="-95485.778685370853" y="51946.553599326449" z="65492.671863699143" />
-        <Forward x="0.6127052" y="0.7606817" z="0.214372009" />
-        <Up x="0.5512855" y="-0.605731" z="0.5737367" />
+        <Position x="-95485.778770817822" y="51946.553748701452" z="65492.672695137051" />
+        <Forward x="0.613041162" y="0.760315835" z="0.214709029" />
+        <Up x="0.552367747" y="-0.6067838" z="0.571579158" />
         <Orientation>
-          <X>0.7723966</X>
-          <Y>0.102905095</Y>
-          <Z>-0.454168528</Z>
-          <W>0.431908518</W>
+          <X>0.772391737</X>
+          <Y>0.103757121</Y>
+          <Z>-0.454756</Z>
+          <W>0.4310945</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -27100,14 +27154,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>93897500386713792</Name>
       <PositionAndOrientation>
-        <Position x="-95487.3953845896" y="51947.072154013949" z="65494.837879324143" />
-        <Forward x="-0.8194232" y="-0.472101867" z="0.325060964" />
-        <Up x="0.5688282" y="-0.5999601" z="0.5625668" />
+        <Position x="-95487.395958317822" y="51947.071326826452" z="65494.838710762051" />
+        <Forward x="-0.817166567" y="-0.474457353" z="0.3273046" />
+        <Up x="0.572038531" y="-0.5978172" z="0.5615921" />
         <Orientation>
-          <X>0.6808921</X>
-          <Y>0.446000516</Y>
-          <Z>0.579970837</Z>
-          <W>0.03321565</W>
+          <X>0.6808706</X>
+          <Y>0.447289169</Y>
+          <Z>0.5790717</Z>
+          <W>0.0319939367</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -32474,11 +32528,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery on the ground</CustomName>
           <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>false</ShowInTerminal>
+          <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.5133507</CurrentStoredPower>
+          <CurrentStoredPower>0.6735593</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -32534,11 +32588,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <TopBlockId>124970872623885745</TopBlockId>
           <ShareInertiaTensor>false</ShareInertiaTensor>
           <SafetyDetach>5</SafetyDetach>
-          <Velocity>0.1</Velocity>
+          <Velocity>-0.1</Velocity>
           <MaxLimit>0.101537749</MaxLimit>
           <MinLimit>0</MinLimit>
           <Reverse>false</Reverse>
-          <CurrentPosition>0.9666661</CurrentPosition>
+          <CurrentPosition>0</CurrentPosition>
           <MaxImpulseAxis>50000</MaxImpulseAxis>
           <MaxImpulseNonAxis>50000</MaxImpulseNonAxis>
         </MyObjectBuilder_CubeBlock>
@@ -34022,8 +34076,8 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197811723</float>
-            <float>0.0142832315</float>
+            <float>0.197792187</float>
+            <float>0.01430205</float>
             <float>0.197789624</float>
             <float>0</float>
             <float>1</float>
@@ -34166,13 +34220,13 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.9157519</float>
+            <float>0.915828943</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197707415</float>
+            <float>0.1977324</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -34267,9 +34321,9 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174481526</float>
+            <float>0.1745136</float>
             <float>0</float>
-            <float>0.174510181</float>
+            <float>0.1745279</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -34423,7 +34477,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ImmediateEffectivities>
             <float>1</float>
             <float>0</float>
-            <float>0.174530491</float>
+            <float>0.174537137</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
@@ -34457,7 +34511,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.1744221</float>
+            <float>0.174418479</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -34607,9 +34661,9 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174509421</float>
-            <float>0</float>
             <float>0.174532413</float>
+            <float>0</float>
+            <float>0.174520016</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -34682,13 +34736,13 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ImmediateEffectivities>
             <float>1</float>
             <float>0</float>
-            <float>0.174483612</float>
+            <float>0.174495026</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174456626</float>
+            <float>0.174427211</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -35071,9 +35125,9 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174489275</float>
+            <float>0.174498171</float>
             <float>0</float>
-            <float>0.174521044</float>
+            <float>0.174486548</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -35098,7 +35152,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174502268</float>
+            <float>0.174494177</float>
             <float>0</float>
             <float>0.1745072</float>
             <float>0</float>
@@ -35128,7 +35182,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174505711</float>
+            <float>0.174516737</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -35151,7 +35205,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ImmediateEffectivities>
             <float>1</float>
             <float>0</float>
-            <float>0.174480557</float>
+            <float>0.174501628</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
@@ -35184,7 +35238,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174436957</float>
+            <float>0.174445346</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_WindTurbine">
@@ -35209,7 +35263,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174518615</float>
+            <float>0.174527973</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -35379,7 +35433,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197669148</float>
+            <float>0.197675154</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_WindTurbine">
@@ -35400,14 +35454,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
             <float>1</float>
-            <float>0.0142607093</float>
-            <float>0.174482971</float>
+            <float>0.0143094147</float>
+            <float>0.174547091</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197657734</float>
+            <float>0.197698057</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_WindTurbine">
@@ -35428,9 +35482,9 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ImmediateEffectivities>
             <float>1</float>
             <float>0</float>
-            <float>0.174499884</float>
-            <float>0.0142719923</float>
-            <float>0.197769284</float>
+            <float>0.174482346</float>
+            <float>0.0142894471</float>
+            <float>0.19781734</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
@@ -35456,7 +35510,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ImmediateEffectivities>
             <float>1</float>
             <float>0</float>
-            <float>0.197775066</float>
+            <float>0.19784157</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
@@ -35484,7 +35538,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ImmediateEffectivities>
             <float>1</float>
             <float>0</float>
-            <float>0.19777678</float>
+            <float>0.197772339</float>
             <float>0.0142911505</float>
             <float>0.17450507</float>
             <float>0</float>
@@ -35512,9 +35566,9 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ImmediateEffectivities>
             <float>1</float>
             <float>0</float>
-            <float>0.1977987</float>
-            <float>0.0143075418</float>
-            <float>0.197795257</float>
+            <float>0.197793081</float>
+            <float>0.014302603</float>
+            <float>0.197811678</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
@@ -35541,9 +35595,9 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197815523</float>
-            <float>0.0143216336</float>
-            <float>0.197807044</float>
+            <float>0.197790489</float>
+            <float>0.0142902136</float>
+            <float>0.197764859</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -35565,15 +35619,15 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.916146755</float>
+            <float>0.9162451</float>
             <float>0</float>
             <float>1</float>
-            <float>0.9310297</float>
+            <float>1</float>
             <float>1</float>
             <float>0</float>
             <float>0.197729945</float>
             <float>0.0142597733</float>
-            <float>0.1744161</float>
+            <float>0.174441338</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -35653,15 +35707,15 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.9256029</float>
+            <float>0.925694466</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
             <float>0.197773114</float>
-            <float>0.01429047</float>
-            <float>0.197674513</float>
+            <float>0.0142715657</float>
+            <float>0.197666541</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_WindTurbine">
@@ -35680,7 +35734,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.9174416</float>
+            <float>0.9175082</float>
             <float>0.0142576871</float>
             <float>0.197775841</float>
             <float>0</float>
@@ -35688,7 +35742,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197652236</float>
+            <float>0.197665229</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -35804,7 +35858,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174519077</float>
+            <float>0.174495712</float>
             <float>0.0142826354</float>
             <float>0.197652578</float>
           </ImmediateEffectivities>
@@ -35825,9 +35879,9 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.9844267</float>
-            <float>0.01427842</float>
-            <float>0.197778776</float>
+            <float>0.984532237</float>
+            <float>0.0142805921</float>
+            <float>0.19778955</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
@@ -35853,14 +35907,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.948830962</float>
+            <float>0.9489389</float>
             <float>0</float>
             <float>1</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197764769</float>
-            <float>0.014251939</float>
+            <float>0.197769329</float>
+            <float>0.0142543232</float>
             <float>0.19764939</float>
           </ImmediateEffectivities>
         </MyObjectBuilder_CubeBlock>
@@ -36015,8 +36069,8 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>0</float>
             <float>0.197814748</float>
-            <float>0.0143023049</float>
-            <float>0.197785035</float>
+            <float>0.0143000912</float>
+            <float>0.197765112</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -36043,7 +36097,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>0</float>
             <float>0.174522191</float>
             <float>0.0143137574</float>
-            <float>0.197787836</float>
+            <float>0.1977771</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -36070,7 +36124,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197796181</float>
+            <float>0.1977597</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -36092,13 +36146,13 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.9964153</float>
+            <float>0.9964803</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.197776511</float>
-            <float>0.01426684</float>
-            <float>0.174467817</float>
+            <float>0.1977932</float>
+            <float>0.0142813157</float>
+            <float>0.174479574</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -36120,13 +36174,13 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
           <ImmediateEffectivities>
-            <float>0.957058966</float>
+            <float>0.9571625</float>
             <float>1</float>
             <float>1</float>
             <float>0</float>
-            <float>0.174533382</float>
-            <float>0.0142829763</float>
-            <float>0.197720826</float>
+            <float>0.174514011</float>
+            <float>0.014297409</float>
+            <float>0.197726622</float>
             <float>0</float>
             <float>1</float>
           </ImmediateEffectivities>
@@ -36142,11 +36196,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery on the ground 6</CustomName>
           <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>false</ShowInTerminal>
+          <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.516033769</CurrentStoredPower>
+          <CurrentStoredPower>0.6739866</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -36164,11 +36218,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery on the ground 5</CustomName>
           <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>false</ShowInTerminal>
+          <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.5160437</CurrentStoredPower>
+          <CurrentStoredPower>0.673030436</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -36186,11 +36240,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery on the ground 4</CustomName>
           <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>false</ShowInTerminal>
+          <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.516052842</CurrentStoredPower>
+          <CurrentStoredPower>0.673077345</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -36208,11 +36262,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery on the ground 3</CustomName>
           <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>false</ShowInTerminal>
+          <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.516058445</CurrentStoredPower>
+          <CurrentStoredPower>0.672996163</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -36230,11 +36284,11 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShareMode>Faction</ShareMode>
           <CustomName>Battery on the ground 2</CustomName>
           <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>false</ShowInTerminal>
+          <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.516061366</CurrentStoredPower>
+          <CurrentStoredPower>0.672984242</CurrentStoredPower>
           <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
@@ -36277,12 +36331,12 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <BoneOffset x="123" y="131" z="120" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="17" y="0" z="-7" />
-          <BoneOffset x="127" y="124" z="136" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="20" y="0" z="-7" />
           <BoneOffset x="124" y="124" z="121" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="17" y="0" z="-7" />
+          <BoneOffset x="127" y="124" z="136" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="17" y="0" z="-8" />
@@ -36297,24 +36351,24 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <BoneOffset x="124" y="127" z="127" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="17" y="0" z="-11" />
-          <BoneOffset x="127" y="123" z="143" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="18" y="-1" z="-11" />
           <BoneOffset x="130" y="128" z="120" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="17" y="0" z="-11" />
+          <BoneOffset x="127" y="123" z="143" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="17" y="0" z="-9" />
           <BoneOffset x="127" y="124" z="128" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="17" y="0" z="-10" />
-          <BoneOffset x="127" y="123" z="134" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="20" y="-1" z="-11" />
           <BoneOffset x="124" y="127" z="125" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="17" y="0" z="-10" />
+          <BoneOffset x="127" y="123" z="134" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="18" y="-1" z="-7" />
@@ -36329,20 +36383,20 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <BoneOffset x="126" y="124" z="126" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="21" y="-2" z="-7" />
-          <BoneOffset x="127" y="130" z="127" />
-        </BoneInfo>
-        <BoneInfo>
           <BonePosition x="19" y="0" z="-11" />
           <BoneOffset x="128" y="124" z="122" />
         </BoneInfo>
         <BoneInfo>
-          <BonePosition x="19" y="-2" z="-11" />
-          <BoneOffset x="126" y="131" z="124" />
+          <BonePosition x="21" y="-2" z="-7" />
+          <BoneOffset x="127" y="130" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="21" y="0" z="-7" />
           <BoneOffset x="127" y="123" z="136" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="19" y="-2" z="-11" />
+          <BoneOffset x="126" y="131" z="124" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="21" y="0" z="-11" />
@@ -36563,14 +36617,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>106023782843817083</Name>
       <PositionAndOrientation>
-        <Position x="-95719.4207752146" y="51695.456919638949" z="65684.182605886643" />
-        <Forward x="-0.223449573" y="0.946687" z="-0.232064024" />
-        <Up x="0.256522954" y="0.286806643" z="0.9230046" />
+        <Position x="-95719.417930974072" y="51695.455115888952" z="65684.174648262051" />
+        <Forward x="-0.7356438" y="0.524525166" z="-0.428603917" />
+        <Up x="0.446355581" y="0.8513168" z="0.275728554" />
         <Orientation>
-          <X>0.5961299</X>
-          <Y>0.1691067</Y>
-          <Z>-0.0350109339</Z>
-          <W>0.7840958</W>
+          <X>0.2395744</X>
+          <Y>0.477809757</Y>
+          <Z>-0.130175591</Z>
+          <W>0.8350786</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -36588,14 +36642,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>76601533556773810</Name>
       <PositionAndOrientation>
-        <Position x="-95618.370917539141" y="51912.465498644975" z="65647.467412038575" />
-        <Forward x="0.224505424" y="-0.427950263" z="-0.875474632" />
-        <Up x="-0.7737134" y="0.467898339" z="-0.427128375" />
+        <Position x="-95607.0393731555" y="51932.515047077017" z="65623.6755568144" />
+        <Forward x="0.6291698" y="0.483005673" z="-0.6089751" />
+        <Up x="-0.7732674" y="0.46834904" z="-0.4274418" />
         <Orientation>
-          <X>-0.249524459</X>
-          <Y>0.000455150235</Y>
-          <Z>0.451429218</Z>
-          <W>0.8567082</W>
+          <X>0.0189204179</X>
+          <Y>-0.4417629</Y>
+          <Z>0.5152354</Z>
+          <W>0.734179854</W>
         </Orientation>
       </PositionAndOrientation>
       <ComponentContainer>
@@ -36667,12 +36721,12 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
                   <Amount>1</Amount>
                   <PhysicalContent xsi:type="MyObjectBuilder_GasContainerObject">
                     <SubtypeName>HydrogenBottle</SubtypeName>
-                    <GasLevel>0.7245294</GasLevel>
+                    <GasLevel>0.235391185</GasLevel>
                   </PhysicalContent>
-                  <ItemId>160</ItemId>
+                  <ItemId>3</ItemId>
                 </MyObjectBuilder_InventoryItem>
               </Items>
-              <nextItemId>188</nextItemId>
+              <nextItemId>4</nextItemId>
               <Volume>0.4</Volume>
               <Mass>9223372036854.775807</Mass>
               <MaxItemCount>2147483647</MaxItemCount>
@@ -36726,12 +36780,12 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
             <Amount>1</Amount>
             <PhysicalContent xsi:type="MyObjectBuilder_GasContainerObject">
               <SubtypeName>HydrogenBottle</SubtypeName>
-              <GasLevel>0.7245294</GasLevel>
+              <GasLevel>0.235391185</GasLevel>
             </PhysicalContent>
-            <ItemId>160</ItemId>
+            <ItemId>3</ItemId>
           </MyObjectBuilder_InventoryItem>
         </Items>
-        <nextItemId>188</nextItemId>
+        <nextItemId>4</nextItemId>
         <Volume>0.4</Volume>
         <Mass>9223372036854.775807</Mass>
         <MaxItemCount>2147483647</MaxItemCount>
@@ -36741,18 +36795,18 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       </Inventory>
       <HandWeapon xsi:type="MyObjectBuilder_Welder">
         <SubtypeName>Welder2</SubtypeName>
-        <EntityId>113539285423941027</EntityId>
+        <EntityId>88723706492955539</EntityId>
         <PersistentFlags>CastShadows InScene</PersistentFlags>
-        <Name>113539285423941027</Name>
+        <Name>88723706492955539</Name>
         <PositionAndOrientation>
-          <Position x="-95619.34573193363" y="51913.12172107958" z="65646.635767829153" />
-          <Forward x="0.197973415" y="-0.3339319" z="-0.921585739" />
-          <Up x="-0.8432904" y="0.421227217" z="-0.3338049" />
+          <Position x="-95607.984336511712" y="51933.379861836023" z="65623.0063195405" />
+          <Forward x="0.5546908" y="0.57450074" z="-0.601905346" />
+          <Up x="-0.831012249" y="0.346434623" z="-0.4351975" />
           <Orientation>
-            <X>-0.198022008</X>
-            <Y>7.01878E-05</Y>
-            <Z>0.500170052</Z>
-            <W>0.84298116</W>
+            <X>0.0504416637</X>
+            <Y>-0.443290442</Y>
+            <Z>0.5694239</Z>
+            <W>0.6904387</W>
           </Orientation>
         </PositionAndOrientation>
         <ComponentContainer>
@@ -36767,26 +36821,26 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
         </ComponentContainer>
       </HandWeapon>
       <Battery>
-        <CurrentCapacity>8.317076E-06</CurrentCapacity>
+        <CurrentCapacity>8.91345553E-06</CurrentCapacity>
         <RegenEffects />
       </Battery>
       <LightEnabled>true</LightEnabled>
       <UsingLadder xsi:nil="true" />
-      <HeadAngle x="-1.065433E-06" y="0" />
-      <LinearVelocity x="-2.36090273E-05" y="1.42753124E-05" z="-1.30599365E-05" />
+      <HeadAngle x="1.3070364" y="0" />
+      <LinearVelocity x="2.70921737E-05" y="-1.53137371E-05" z="1.43526122E-05" />
       <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
       <JetpackEnabled>false</JetpackEnabled>
       <ColorMaskHSV x="1" y="0" z="0" />
       <LootingCounter>0</LootingCounter>
-      <DisplayName>Persuant</DisplayName>
+      <DisplayName>7imeout_</DisplayName>
       <IsInFirstPersonView>true</IsInFirstPersonView>
       <EnableBroadcasting>true</EnableBroadcasting>
       <OxygenLevel>0.998950541</OxygenLevel>
-      <EnvironmentOxygenLevel>0.781655848</EnvironmentOxygenLevel>
+      <EnvironmentOxygenLevel>0.7808476</EnvironmentOxygenLevel>
       <StoredGases>
         <StoredGas>
           <Id Type="MyObjectBuilder_GasProperties" Subtype="Hydrogen" />
-          <FillLevel>0.482613117</FillLevel>
+          <FillLevel>1</FillLevel>
         </StoredGas>
         <StoredGas>
           <Id Type="MyObjectBuilder_GasProperties" Subtype="Oxygen" />
@@ -36797,7 +36851,7 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
         <string>RagdollComponent</string>
         <string>InventorySpawnComponent</string>
       </EnabledComponents>
-      <PlayerSteamId>76561198044367824</PlayerSteamId>
+      <PlayerSteamId>76561198048566000</PlayerSteamId>
       <PlayerSerialId>0</PlayerSerialId>
       <NeedsOxygenFromSuit>false</NeedsOxygenFromSuit>
       <OwningPlayerIdentityId>144115188075855913</OwningPlayerIdentityId>
@@ -36858,14 +36912,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>86455866873977858</Name>
       <PositionAndOrientation>
-        <Position x="-95611.188841620853" y="51911.321177451449" z="65633.502918386643" />
-        <Forward x="-0.597813368" y="-0.7618426" z="0.249428332" />
-        <Up x="-0.773256" y="0.465968579" z="-0.430056" />
+        <Position x="-95610.443321599072" y="51910.876014326452" z="65633.912929512051" />
+        <Forward x="-0.5984807" y="-0.761297166" z="0.249493539" />
+        <Up x="-0.773399353" y="0.467790544" z="-0.427814543" />
         <Orientation>
-          <X>-0.498715639</X>
-          <Y>0.6131859</Y>
-          <Z>0.1352717</Z>
-          <W>0.5974842</W>
+          <X>-0.497666121</X>
+          <Y>0.6140645</Y>
+          <Z>0.135768622</Z>
+          <W>0.5973442</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -36912,23 +36966,12 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <ShowInInventory>true</ShowInInventory>
           <Enabled>true</Enabled>
-          <ConnectedEntityId>90253626067853614</ConnectedEntityId>
-          <MasterToSlaveTransform>
-            <Position x="0.074574887752532959" y="0.44230851531028748" z="-2.5487375259399414" />
-            <Forward x="-0.000538729248" y="0.0463144034" z="0.9989265" />
-            <Up x="0.00638550753" y="0.9989067" z="-0.04631003" />
-            <Orientation>
-              <X>0.00318567432</X>
-              <Y>0.9997266</Y>
-              <Z>-0.0231624469</Z>
-              <W>0.00034324656</W>
-            </Orientation>
-          </MasterToSlaveTransform>
+          <MasterToSlaveTransform xsi:nil="true" />
           <MasterToSlaveGrid xsi:nil="true" />
-          <IsMaster>false</IsMaster>
+          <IsMaster>true</IsMaster>
           <TradingEnabled>false</TradingEnabled>
           <AutoUnlockTime>0</AutoUnlockTime>
-          <TimeOfConnection>763278</TimeOfConnection>
+          <TimeOfConnection>0</TimeOfConnection>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
       <ConveyorLines>
@@ -36953,14 +36996,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>116933458654608998</Name>
       <PositionAndOrientation>
-        <Position x="-95719.631224433353" y="51694.684458701449" z="65683.751941824143" />
-        <Forward x="-0.7661365" y="-0.6018443" z="0.225427628" />
-        <Up x="0.03352347" y="0.312862128" z="0.9492066" />
+        <Position x="-95719.632774724072" y="51694.680701826452" z="65683.745937324551" />
+        <Forward x="0.8740812" y="-0.1321075" z="0.467470556" />
+        <Up x="0.3378507" y="-0.526141763" z="-0.7804042" />
         <Orientation>
-          <X>0.2601745</X>
-          <Y>0.738256752</Y>
-          <Z>0.525241137</Z>
-          <W>0.3337782</W>
+          <X>0.765288532</X>
+          <Y>0.384797156</Y>
+          <Z>-0.421194077</Z>
+          <W>-0.298094183</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37053,14 +37096,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>142707690047044703</Name>
       <PositionAndOrientation>
-        <Position x="-95719.510130683353" y="51694.995982138949" z="65684.083973074143" />
-        <Forward x="-0.5679472" y="0.3357505" z="0.751469731" />
-        <Up x="-0.690844655" y="-0.6907604" z="-0.213501722" />
+        <Position x="-95719.502403630322" y="51694.992225263952" z="65684.078945137051" />
+        <Forward x="-0.622961164" y="-0.613978267" z="0.484715968" />
+        <Up x="-0.541631043" y="-0.108529568" z="-0.8335806" />
         <Orientation>
-          <X>0.8499461</X>
-          <Y>-0.391569555</Y>
-          <Z>0.350673676</Z>
-          <W>0.0359578021</W>
+          <X>0.7344475</X>
+          <Y>-0.4504941</Y>
+          <Z>0.12186753</Z>
+          <W>-0.4927375</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37078,14 +37121,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>109712231224549538</Name>
       <PositionAndOrientation>
-        <Position x="-95719.459349433353" y="51695.229380576449" z="65684.124988699143" />
-        <Forward x="-0.0686754361" y="0.6608535" z="-0.74736613" />
-        <Up x="-0.19095169" y="0.726577044" z="0.6600175" />
+        <Position x="-95719.459923161572" y="51695.226600263952" z="65684.124843574551" />
+        <Forward x="-0.662415266" y="0.3594252" z="0.6572812" />
+        <Up x="0.529479265" y="-0.39605695" z="0.750193238" />
         <Orientation>
-          <X>0.355404973</X>
-          <Y>-0.002049676</Y>
-          <Z>0.1019742</Z>
-          <W>0.929131</W>
+          <X>0.8036321</X>
+          <Y>0.427570164</Y>
+          <Z>0.228481933</Z>
+          <W>0.345188737</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37103,14 +37146,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>128595939853698733</Name>
       <PositionAndOrientation>
-        <Position x="-95719.400755683353" y="51694.858286826449" z="65683.438465261643" />
-        <Forward x="-0.327426374" y="-0.8607246" z="-0.389801085" />
-        <Up x="0.687325954" y="-0.5000463" z="0.5268169" />
+        <Position x="-95719.412559880322" y="51694.822303388952" z="65683.429531074551" />
+        <Forward x="-0.0752835" y="0.120922208" z="0.9898027" />
+        <Up x="0.524829" y="0.848814845" z="-0.06377995" />
         <Orientation>
-          <X>0.339809656</X>
-          <Y>0.435463935</Y>
-          <Z>0.7965882</Z>
-          <W>-0.245657921</W>
+          <X>0.270701081</X>
+          <Y>0.9600117</Y>
+          <Z>-0.0480989553</Z>
+          <W>0.0527724847</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37122,331 +37165,20 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
         <ItemId>0</ItemId>
       </Item>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
-      <SubtypeName />
-      <EntityId>84978258261618497</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <Name>84978258261618497</Name>
-      <PositionAndOrientation>
-        <Position x="-95762.7762439646" y="50201.268443076449" z="64766.772449636643" />
-        <Forward x="0.456267476" y="0.243592069" z="-0.8558521" />
-        <Up x="0.147054" y="-0.969218" z="-0.19746159" />
-        <Orientation>
-          <X>-0.242774874</X>
-          <Y>-0.11460498</Y>
-          <Z>0.9621172</Z>
-          <W>-0.0475033633</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <GridSizeEnum>Small</GridSizeEnum>
-      <CubeBlocks>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
-          <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
-          <EntityId>72612312567883057</EntityId>
-          <Name>72612312567883057</Name>
-          <Min x="-1" y="2" z="1" />
-          <BlockOrientation Forward="Up" Up="Left" />
-          <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-          <ShareMode>Faction</ShareMode>
-          <CustomName>Special Content Power</CustomName>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <Enabled>true</Enabled>
-          <CurrentStoredPower>0.04990517</CurrentStoredPower>
-          <ProducerEnabled>true</ProducerEnabled>
-          <MaxStoredPower>0</MaxStoredPower>
-          <SemiautoEnabled>false</SemiautoEnabled>
-          <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
-          <ChargeMode>0</ChargeMode>
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
-          <Min x="-1" y="2" z="2" />
-          <BlockOrientation Forward="Forward" Up="Down" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
-          <Min x="-1" y="2" z="0" />
-          <BlockOrientation Forward="Backward" Up="Down" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
-          <Min x="0" y="2" z="1" />
-          <BlockOrientation Forward="Left" Up="Down" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
-          <Min x="-2" y="2" z="1" />
-          <BlockOrientation Forward="Right" Up="Down" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
-          <EntityId>122373840261839140</EntityId>
-          <Name>122373840261839140</Name>
-          <Min x="-2" y="2" z="0" />
-          <IntegrityPercent>0.06666667</IntegrityPercent>
-          <BuildPercent>0.06666667</BuildPercent>
-          <BlockOrientation Forward="Down" Up="Forward" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
-          <EntityId>135055339460262518</EntityId>
-          <Name>135055339460262518</Name>
-          <Min x="-2" y="2" z="2" />
-          <IntegrityPercent>0.2</IntegrityPercent>
-          <BuildPercent>0.2</BuildPercent>
-          <BlockOrientation Forward="Down" Up="Left" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
-          <EntityId>125901368292786438</EntityId>
-          <Name>125901368292786438</Name>
-          <Min x="0" y="2" z="0" />
-          <IntegrityPercent>0.2</IntegrityPercent>
-          <BuildPercent>0.2</BuildPercent>
-          <BlockOrientation Forward="Down" Up="Right" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
-          <EntityId>92990352959055292</EntityId>
-          <Name>92990352959055292</Name>
-          <Min x="0" y="2" z="2" />
-          <IntegrityPercent>0.2</IntegrityPercent>
-          <BuildPercent>0.2</BuildPercent>
-          <BlockOrientation Forward="Down" Up="Backward" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
-          <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-          <EntityId>140179078254436620</EntityId>
-          <Name>140179078254436620</Name>
-          <Min x="-1" y="3" z="0" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-          <ShareMode>All</ShareMode>
-          <ComponentContainer>
-            <Components>
-              <ComponentData>
-                <TypeId>MyInventoryBase</TypeId>
-                <Component xsi:type="MyObjectBuilder_Inventory">
-                  <Items>
-                    <MyObjectBuilder_InventoryItem>
-                      <Amount>43</Amount>
-                      <PhysicalContent xsi:type="MyObjectBuilder_Component">
-                        <SubtypeName>Construction</SubtypeName>
-                      </PhysicalContent>
-                      <ItemId>3</ItemId>
-                    </MyObjectBuilder_InventoryItem>
-                    <MyObjectBuilder_InventoryItem>
-                      <Amount>525</Amount>
-                      <PhysicalContent xsi:type="MyObjectBuilder_PhysicalObject">
-                        <SubtypeName>SpaceCredit</SubtypeName>
-                      </PhysicalContent>
-                      <ItemId>4</ItemId>
-                    </MyObjectBuilder_InventoryItem>
-                  </Items>
-                  <nextItemId>5</nextItemId>
-                  <Volume>0.125</Volume>
-                  <Mass>9223372036854.775807</Mass>
-                  <MaxItemCount>2147483647</MaxItemCount>
-                  <Size xsi:nil="true" />
-                  <InventoryFlags>CanReceive CanSend</InventoryFlags>
-                  <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-                </Component>
-              </ComponentData>
-            </Components>
-          </ComponentContainer>
-          <CustomName>Special Content Power</CustomName>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <ContainerType>PersonalContainerSmall</ContainerType>
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
-          <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
-          <EntityId>98110912029419773</EntityId>
-          <Name>98110912029419773</Name>
-          <Min x="-1" y="3" z="2" />
-          <BlockOrientation Forward="Up" Up="Backward" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-          <Owner>144115188075855895</Owner>
-          <ShareMode>Faction</ShareMode>
-          <CustomName>Special Content Power</CustomName>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <Enabled>true</Enabled>
-          <BroadcastRadius>500</BroadcastRadius>
-          <ShowShipName>false</ShowShipName>
-          <EnableBroadcasting>true</EnableBroadcasting>
-          <AttachedPB>0</AttachedPB>
-          <IgnoreAllied>false</IgnoreAllied>
-          <IgnoreOther>true</IgnoreOther>
-          <HudText />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
-          <Min x="0" y="3" z="1" />
-          <BlockOrientation Forward="Down" Up="Right" />
-          <ColorMaskHSV x="0" y="-1" z="-0.23" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ButtonPanel">
-          <SubtypeName>ButtonPanelSmall</SubtypeName>
-          <EntityId>132121877399341509</EntityId>
-          <Name>132121877399341509</Name>
-          <Min x="-2" y="3" z="1" />
-          <BlockOrientation Forward="Down" Up="Left" />
-          <ShareMode>All</ShareMode>
-          <ComponentContainer>
-            <Components>
-              <ComponentData>
-                <TypeId>MyContainerDropComponent</TypeId>
-                <Component xsi:type="MyObjectBuilder_ContainerDropComponent">
-                  <Competetive>false</Competetive>
-                  <GPSName>Unknown signal 146</GPSName>
-                  <Owner>144115188075855913</Owner>
-                  <PlayingSound>BlockContainer</PlayingSound>
-                </Component>
-              </ComponentData>
-            </Components>
-          </ComponentContainer>
-          <CustomName>Special Content</CustomName>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <Enabled>true</Enabled>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots />
-            <SlotsGamepad />
-          </Toolbar>
-          <AnyoneCanUse>false</AnyoneCanUse>
-          <CustomButtonNames>
-            <dictionary>
-              <item>
-                <Key>0</Key>
-                <Value />
-              </item>
-            </dictionary>
-          </CustomButtonNames>
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
-          <Min x="-2" y="3" z="0" />
-          <BlockOrientation Forward="Right" Up="Forward" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
-          <Min x="-2" y="3" z="2" />
-          <BlockOrientation Forward="Forward" Up="Left" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
-          <Min x="0" y="3" z="0" />
-          <BlockOrientation Forward="Backward" Up="Right" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
-          <Min x="0" y="3" z="2" />
-          <BlockOrientation Forward="Left" Up="Backward" />
-          <ColorMaskHSV x="0" y="-0.8" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Parachute">
-          <SubtypeName>SmParachute</SubtypeName>
-          <EntityId>121023355301272505</EntityId>
-          <Name>121023355301272505</Name>
-          <Min x="-1" y="3" z="1" />
-          <BlockOrientation Forward="Right" Up="Up" />
-          <ColorMaskHSV x="0" y="-1" z="-0.23" />
-          <Owner>144115188075855895</Owner>
-          <ShareMode>Faction</ShareMode>
-          <ComponentContainer>
-            <Components>
-              <ComponentData>
-                <TypeId>MyInventoryBase</TypeId>
-                <Component xsi:type="MyObjectBuilder_Inventory">
-                  <Items />
-                  <nextItemId>1</nextItemId>
-                  <Volume>0.008</Volume>
-                  <Mass>9223372036854.775807</Mass>
-                  <MaxItemCount>2147483647</MaxItemCount>
-                  <Size xsi:nil="true" />
-                  <InventoryFlags>CanSend</InventoryFlags>
-                  <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-                </Component>
-              </ComponentData>
-            </Components>
-          </ComponentContainer>
-          <CustomName>Special Content Power</CustomName>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <Enabled>true</Enabled>
-          <AnyoneCanUse>false</AnyoneCanUse>
-          <AutoDeploy>true</AutoDeploy>
-          <DeployHeight>200</DeployHeight>
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
-          <SubtypeName>SmallBlockSmallLight</SubtypeName>
-          <EntityId>126905099427616303</EntityId>
-          <Name>126905099427616303</Name>
-          <Min x="-1" y="4" z="0" />
-          <BlockOrientation Forward="Up" Up="Forward" />
-          <ColorMaskHSV x="0" y="-1" z="-0.23" />
-          <CustomName>Special Content Power</CustomName>
-          <ShowOnHUD>false</ShowOnHUD>
-          <ShowInTerminal>true</ShowInTerminal>
-          <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <ShowInInventory>true</ShowInInventory>
-          <Enabled>true</Enabled>
-          <Radius>3.95370579</Radius>
-          <ReflectorRadius>120</ReflectorRadius>
-          <ColorGreen>0.78039217</ColorGreen>
-          <ColorBlue>0.282352954</ColorBlue>
-          <Falloff>1</Falloff>
-          <Intensity>2.96064949</Intensity>
-          <BlinkIntervalSeconds>1</BlinkIntervalSeconds>
-          <BlinkLenght>8</BlinkLenght>
-          <BlinkOffset>0</BlinkOffset>
-          <Offset>0.5</Offset>
-        </MyObjectBuilder_CubeBlock>
-      </CubeBlocks>
-      <DisplayName>Container MK-3</DisplayName>
-      <DestructibleBlocks>true</DestructibleBlocks>
-      <IsRespawnGrid>true</IsRespawnGrid>
-      <LocalCoordSys>0</LocalCoordSys>
-      <TargetingTargets />
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
       <SubtypeName />
       <EntityId>91548268911335904</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>91548268911335904</Name>
       <PositionAndOrientation>
-        <Position x="-95719.4393299021" y="51694.813364951449" z="65683.678699636643" />
-        <Forward x="0.763005555" y="0.379423261" z="0.5233165" />
-        <Up x="0.47833997" y="0.213092685" z="-0.8519285" />
+        <Position x="-95719.440880192822" y="51694.810584638952" z="65683.674648262051" />
+        <Forward x="-0.669270635" y="-0.739652932" z="0.07063979" />
+        <Up x="-0.4427235" y="0.3206231" z="-0.837374747" />
         <Orientation>
-          <X>0.467832059</X>
-          <Y>0.7367438</Y>
-          <Z>-0.417835861</Z>
-          <W>-0.2524973</W>
+          <X>-0.580244541</X>
+          <Y>0.445686251</Y>
+          <Z>-0.054815352</Z>
+          <W>0.679466963</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37464,14 +37196,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>138251321501060880</Name>
       <PositionAndOrientation>
-        <Position x="-95718.7401111521" y="51697.853404013949" z="65683.795887136643" />
-        <Forward x="-0.225219846" y="0.9726594" z="0.05665189" />
-        <Up x="0.965263665" y="0.2148476" z="0.148682058" />
+        <Position x="-95718.740196599072" y="51697.853553388952" z="65683.795742012051" />
+        <Forward x="-0.235966086" y="0.969487667" z="0.0664325356" />
+        <Up x="0.965350449" y="0.226021618" z="0.130431622" />
         <Orientation>
-          <X>0.4935205</X>
-          <Y>0.533632338</Y>
-          <Z>-0.386023</Z>
-          <W>0.5680319</W>
+          <X>0.487813383</X>
+          <Y>0.5433731</Y>
+          <Z>-0.386040539</Z>
+          <W>0.5636989</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37489,14 +37221,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>116458472423341543</Name>
       <PositionAndOrientation>
-        <Position x="-95719.689818183353" y="51694.832896201449" z="65684.091785574143" />
-        <Forward x="-0.430492878" y="-0.597496569" z="-0.676515758" />
-        <Up x="0.761666656" y="-0.642643" z="0.08290285" />
+        <Position x="-95719.687950505322" y="51694.836951826452" z="65684.095546699551" />
+        <Forward x="-0.568852663" y="0.131810248" z="-0.8118082" />
+        <Up x="0.202695072" y="-0.9341571" z="-0.293708742" />
         <Orientation>
-          <X>0.3470717</X>
-          <Y>0.20318301</Y>
-          <Z>0.837175548</Z>
-          <W>-0.370668262</W>
+          <X>0.285166025</X>
+          <Y>-0.113031946</Y>
+          <Z>0.9411477</Z>
+          <W>-0.141933575</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37514,14 +37246,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>142054586983762262</Name>
       <PositionAndOrientation>
-        <Position x="-95719.469115058353" y="51695.123911826449" z="65683.787098074143" />
-        <Forward x="-0.8906587" y="0.28815344" z="0.351702332" />
-        <Up x="0.3272834" y="-0.130637467" z="0.93585217" />
+        <Position x="-95719.468712224072" y="51695.117225263952" z="65683.780117012051" />
+        <Forward x="0.6384694" y="-0.239530221" z="0.731424451" />
+        <Up x="-0.74053" y="-0.450112462" z="0.499012768" />
         <Orientation>
-          <X>0.6704391</X>
-          <Y>0.475775748</Y>
-          <Z>0.34033826</Z>
-          <W>0.4564194</W>
+          <X>0.7731804</X>
+          <Y>-0.517594755</Y>
+          <Z>-0.3567188</Z>
+          <W>0.08390106</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37539,14 +37271,14 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>119766639091497432</Name>
       <PositionAndOrientation>
-        <Position x="-95719.526732245853" y="51694.831919638949" z="65683.906238699143" />
-        <Forward x="-0.05250998" y="-0.7313" z="0.6800309" />
-        <Up x="-0.455920458" y="-0.5883016" z="-0.6678599" />
+        <Position x="-95719.532188786572" y="51694.827186201452" z="65683.904140449551" />
+        <Forward x="0.3493088" y="0.915760338" z="0.198409587" />
+        <Up x="0.4179898" y="-0.341801763" z="0.841698349" />
         <Orientation>
-          <X>0.888369739</X>
-          <Y>-0.225421429</Y>
-          <Z>-0.07035731</Z>
-          <W>-0.393743873</W>
+          <X>0.771171451</X>
+          <Y>0.067076616</Y>
+          <Z>-0.27603507</Z>
+          <W>0.56973666</W>
         </Orientation>
       </PositionAndOrientation>
       <Item>
@@ -37557,6 +37289,157 @@ GPS:RLDE - Station:-98923.0439557184:28752.8470972727:113372.211869268:
         </PhysicalContent>
         <ItemId>0</ItemId>
       </Item>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
+      <SubtypeName>Default_Astronaut</SubtypeName>
+      <EntityId>126450009958833548</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>126450009958833548</Name>
+      <PositionAndOrientation>
+        <Position x="-95604.041349562074" y="51935.822587419236" z="65621.839577337829" />
+        <Forward x="-0.453503668" y="-0.8796105" z="-0.143595219" />
+        <Up x="-0.7732415" y="0.468434423" z="-0.427395165" />
+        <Orientation>
+          <X>-0.455844462</X>
+          <Y>0.469476551</Y>
+          <Z>0.240808308</Z>
+          <W>0.7168047</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyEntityStatComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+              <Stats>
+                <MyObjectBuilder_EntityStat>
+                  <SubtypeName>SpaceCharacterHealth</SubtypeName>
+                  <Value>1</Value>
+                  <MaxValue>1</MaxValue>
+                  <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+                  <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+                </MyObjectBuilder_EntityStat>
+              </Stats>
+              <ScriptNames>
+                <string>SpaceStatEffect</string>
+              </ScriptNames>
+            </Component>
+          </ComponentData>
+          <ComponentData>
+            <TypeId>MyAssetModifierComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_AssetModifierComponent">
+              <AssetModifiers />
+            </Component>
+          </ComponentData>
+          <ComponentData>
+            <TypeId>MyInventoryBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_Inventory">
+              <Items>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>1</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+                    <SubtypeName>AngleGrinderItem</SubtypeName>
+                  </PhysicalContent>
+                  <ItemId>0</ItemId>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>1</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+                    <SubtypeName>HandDrillItem</SubtypeName>
+                  </PhysicalContent>
+                  <ItemId>1</ItemId>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>1</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+                    <SubtypeName>WelderItem</SubtypeName>
+                  </PhysicalContent>
+                  <ItemId>2</ItemId>
+                </MyObjectBuilder_InventoryItem>
+              </Items>
+              <nextItemId>3</nextItemId>
+              <Volume>0.4</Volume>
+              <Mass>9223372036854.775807</Mass>
+              <MaxItemCount>2147483647</MaxItemCount>
+              <Size xsi:nil="true" />
+              <InventoryFlags />
+              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <CharacterModel>Default_Astronaut</CharacterModel>
+      <Inventory>
+        <Items>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>1</Amount>
+            <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+              <SubtypeName>AngleGrinderItem</SubtypeName>
+            </PhysicalContent>
+            <ItemId>0</ItemId>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>1</Amount>
+            <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+              <SubtypeName>HandDrillItem</SubtypeName>
+            </PhysicalContent>
+            <ItemId>1</ItemId>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>1</Amount>
+            <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+              <SubtypeName>WelderItem</SubtypeName>
+            </PhysicalContent>
+            <ItemId>2</ItemId>
+          </MyObjectBuilder_InventoryItem>
+        </Items>
+        <nextItemId>3</nextItemId>
+        <Volume>0.4</Volume>
+        <Mass>9223372036854.775807</Mass>
+        <MaxItemCount>2147483647</MaxItemCount>
+        <Size xsi:nil="true" />
+        <InventoryFlags />
+        <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+      </Inventory>
+      <Battery>
+        <CurrentCapacity>9.56312E-06</CurrentCapacity>
+        <RegenEffects />
+      </Battery>
+      <LightEnabled>false</LightEnabled>
+      <UsingLadder xsi:nil="true" />
+      <HeadAngle x="-14.623539" y="0" />
+      <LinearVelocity x="-3.372878E-05" y="2.010446E-05" z="-1.88555568E-05" />
+      <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
+      <JetpackEnabled>false</JetpackEnabled>
+      <ColorMaskHSV x="1" y="0" z="0" />
+      <LootingCounter>0</LootingCounter>
+      <DisplayName>Persuant</DisplayName>
+      <IsInFirstPersonView>true</IsInFirstPersonView>
+      <EnableBroadcasting>true</EnableBroadcasting>
+      <OxygenLevel>0.998950541</OxygenLevel>
+      <EnvironmentOxygenLevel>0.7808465</EnvironmentOxygenLevel>
+      <StoredGases>
+        <StoredGas>
+          <Id Type="MyObjectBuilder_GasProperties" Subtype="Hydrogen" />
+          <FillLevel>0.6891813</FillLevel>
+        </StoredGas>
+        <StoredGas>
+          <Id Type="MyObjectBuilder_GasProperties" Subtype="Oxygen" />
+          <FillLevel>0.998950541</FillLevel>
+        </StoredGas>
+      </StoredGases>
+      <EnabledComponents>
+        <string>RagdollComponent</string>
+        <string>InventorySpawnComponent</string>
+      </EnabledComponents>
+      <PlayerSteamId>76561198044367824</PlayerSteamId>
+      <PlayerSerialId>0</PlayerSerialId>
+      <NeedsOxygenFromSuit>false</NeedsOxygenFromSuit>
+      <OwningPlayerIdentityId>144115188075855916</OwningPlayerIdentityId>
+      <IsPersistenceCharacter>true</IsPersistenceCharacter>
+      <IsStartingCharacterForLobby>false</IsStartingCharacterForLobby>
+      <RelativeDampeningEntity>0</RelativeDampeningEntity>
+      <UsingLadderInfo xsi:nil="true" />
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
 </MyObjectBuilder_Sector>
